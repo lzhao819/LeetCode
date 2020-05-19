@@ -35,3 +35,15 @@
 * Leetcode 938: Range Sum of BST
   * Easy
   * Tree
+* Leetcode 102 107: Binary Tree Level Order Traversal 
+  *  *Medium*
+  * BFS
+* Leetcode 785: Is Graph Bipartite?
+  *  *Medium*
+  * BFS
+* Leetcode 958: Check Completeness of a Binary Tree 
+  *  *Medium*
+  * BFS
+* Leetcode 378: Kth Smallest Element in a Sorted Matrix
+  *  *Medium*
+  * BFSII
