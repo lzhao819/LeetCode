@@ -35,7 +35,7 @@
 * [Leetcode 938](https://leetcode.com/problems/range-sum-of-bst/): Range Sum of BST
   * Easy
   * Tree
-* Leetcode 102 107: Binary Tree Level Order Traversal 
+* [Leetcode 102](https://leetcode.com/problems/binary-tree-level-order-traversal/) [107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/): Binary Tree Level Order Traversal 
   * *Medium*
   * BFS
 * [Leetcode 785](https://leetcode.com/problems/is-graph-bipartite/): Is Graph Bipartite?
@@ -47,3 +47,15 @@
 * [Leetcode 378](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/): Kth Smallest Element in a Sorted Matrix
   * *Medium*
   * BFSII
+* [Leetcode 78](https://leetcode.com/problems/subsets/) [90](https://leetcode.com/problems/subsets-ii/): Subsets
+  * *Medium*
+  * DFS
+* [Leetcode 22](https://leetcode.com/problems/generate-parentheses/): Generate Parentheses
+  * *Medium*
+  * DFS
+* [Leetcode 39](https://leetcode.com/problems/combination-sum/): Combination Sum
+  * *Medium*
+  * DFS
+* [Leetcode 46](https://leetcode.com/problems/permutations/): Permutations
+  * *Medium*
+  * DFS
