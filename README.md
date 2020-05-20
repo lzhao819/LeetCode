@@ -1,49 +1,49 @@
 # LeetCode
-* Leetcode 94: Binary Tree Inorder Traversal 
+* [Leetcode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/): Binary Tree Inorder Traversal 
   * *Medium*
   * Tree
-* Leetcode 98: Validate Binary Search Tree
+* [Leetcode 98](https://leetcode.com/problems/validate-binary-search-tree/): Validate Binary Search Tree
   * *Medium*
   * Tree
-* Leetcode 100: Same Tree
+* [Leetcode 100](https://leetcode.com/problems/same-tree/): Same Tree
   * Easy
   * Tree
-* Leetcode 101: Symmetric Tree
+* [Leetcode 101](https://leetcode.com/problems/symmetric-tree/): Symmetric Tree
   * Easy
   * Tree
-* Leetcode 104: Maximum Depth of Binary Tree
+* [Leetcode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/): Maximum Depth of Binary Tree
   * Easy
   * Tree
-* Leetcode 110: Balanced Binary Tree
+* [Leetcode 110](https://leetcode.com/problems/balanced-binary-tree/): Balanced Binary Tree
   * Easy
   * Tree
-* Leetcode 144: Binary Tree Preorder Traversal
+* [Leetcode 144](https://leetcode.com/problems/binary-tree-preorder-traversal/): Binary Tree Preorder Traversal
   * *Medium*
   * Tree
-* Leetcode 145: Binary Tree Postorder Traversal
+* [Leetcode 145](https://leetcode.com/problems/binary-tree-postorder-traversal/): Binary Tree Postorder Traversal
   * *Medium*
   * Tree
-* Leetcode 215: 
+* [Leetcode 215](https://leetcode.com/problems/kth-largest-element-in-an-array/): Kth Largest Element in an Array
   * **Hard**
   * Heap
-* Leetcode 450: Delete Node in a BST
+* [Leetcode 450](https://leetcode.com/problems/delete-node-in-a-bst/): Delete Node in a BST
   * *Medium*
   * Tree
-* Leetcode 701: Insert into a Binary Search Tree
+* [Leetcode 701](https://leetcode.com/problems/insert-into-a-binary-search-tree/): Insert into a Binary Search Tree
   * *Medium*
   * Tree
-* Leetcode 938: Range Sum of BST
+* [Leetcode 938](https://leetcode.com/problems/range-sum-of-bst/): Range Sum of BST
   * Easy
   * Tree
 * Leetcode 102 107: Binary Tree Level Order Traversal 
-  *  *Medium*
+  * *Medium*
   * BFS
-* Leetcode 785: Is Graph Bipartite?
-  *  *Medium*
+* [Leetcode 785](https://leetcode.com/problems/is-graph-bipartite/): Is Graph Bipartite?
+  * *Medium*
   * BFS
-* Leetcode 958: Check Completeness of a Binary Tree 
-  *  *Medium*
+* [Leetcode 958](https://leetcode.com/problems/check-completeness-of-a-binary-tree/): Check Completeness of a Binary Tree 
+  * *Medium*
   * BFS
-* Leetcode 378: Kth Smallest Element in a Sorted Matrix
-  *  *Medium*
+* [Leetcode 378](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/): Kth Smallest Element in a Sorted Matrix
+  * *Medium*
   * BFSII
