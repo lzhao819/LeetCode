@@ -1,3 +1,19 @@
+//27
+class Solution {
+    public int removeElement(int[] nums, int val) {
+        if(nums.length==0 )return 0;
+        int slow=0, fast=0;
+        while(fast < nums.length){
+          if(nums[fast]!=val){
+            nums[slow++] = nums[fast++];
+          }else{
+            fast++;
+          }
+        }
+        return slow;      
+    }
+}
+
 //27 is  too simply, see the example below
 //Remove Certain Characters
 //Remove given characters in input string, the relative order of other characters should be remained. Return the new string after deletion.
@@ -25,18 +41,3 @@ public class Solution {
   }
 }
 
-//27
-class Solution {
-    public int removeElement(int[] nums, int val) {
-        if(nums.length==0 )return 0;
-        int slow=0, fast=0;
-        while(fast < nums.length){
-          if(nums[fast]!=val){
-            nums[slow++] = nums[fast++];
-          }else{
-            fast++;
-          }
-        }
-        return slow;      
-    }
-}
