@@ -60,6 +60,22 @@
   * *Medium*
   * DFS
 * Leetcode 268
-  * Medium
+  * Easy
   * HashMap
+* Leetcode 692 347
+  * *Medium*
+  * HashMap
+* Leetcode 349 350
+  * Easy
+  * HashMap
+* Leetcode 27
+  * Easy
+  * String
+* Laicode 281
+  * Easy
+  * String
+* Leetcode 1047 1209
+  * *Medium*
+  * String
+
 
