@@ -59,22 +59,22 @@
 * [Leetcode 46](https://leetcode.com/problems/permutations/): Permutations
   * *Medium*
   * DFS
-* Leetcode 268
+* [Leetcode 268](https://leetcode.com/problems/missing-number/): Missing Number
   * Easy
   * HashMap
-* Leetcode 692 347
+* Leetcode [692](https://leetcode.com/problems/top-k-frequent-words/) [347](https://leetcode.com/problems/top-k-frequent-elements/): Top K Frequent Words && Top K Frequent Elements
   * *Medium*
   * HashMap
-* Leetcode 349 350
+* Leetcode [349](https://leetcode.com/problems/intersection-of-two-arrays/) [350](https://leetcode.com/problems/intersection-of-two-arrays-ii/): Intersection of Two Arrays && Intersection of Two Arrays II
   * Easy
   * HashMap
-* Leetcode 27
+* [Leetcode 27](https://leetcode.com/problems/remove-element/): Remove Element
   * Easy
   * String
-* Laicode 281
+* [Laicode 281](https://www.lintcode.com/problem/zigzag-iterator/description): Zigzag Iterator
   * Easy
   * String
-* Leetcode 1047 1209
+* Leetcode [1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/): Remove All Adjacent Duplicates In String && Remove All Adjacent Duplicates in String II
   * *Medium*
   * String
 
