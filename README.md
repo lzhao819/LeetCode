@@ -59,23 +59,46 @@
 * [Leetcode 46](https://leetcode.com/problems/permutations/): Permutations
   * *Medium*
   * DFS
-* Leetcode 268
+* [Leetcode 268](https://leetcode.com/problems/missing-number/): Missing Number 
   * Easy
   * HashMap
-* Leetcode 692 347
+* [Leetcode 692](https://leetcode.com/problems/top-k-frequent-words/) [347](https://leetcode.com/problems/top-k-frequent-elements/): Top K Frequent Words
   * *Medium*
   * HashMap
-* Leetcode 349 350
+* [Leetcode 349](https://leetcode.com/problems/intersection-of-two-arrays/) [350](https://leetcode.com/problems/intersection-of-two-arrays-ii/): Intersection of Two Arrays
   * Easy
   * HashMap
-* Leetcode 27
+* [Leetcode 27](https://leetcode.com/problems/remove-element/): Remove Element
   * Easy
   * String
-* Laicode 281
+* Laicode 281: Remove Spaces
   * Easy
   * String
-* Leetcode 1047 1209
+* [Leetcode 1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/): Remove All Adjacent Duplicates in String
   * *Medium*
   * String
+* [Leetcode 704](https://leetcode.com/problems/binary-search/) [74](https://leetcode.com/problems/search-a-2d-matrix/):Classic Binary Search 1D, 2D
+  * Easy
+  * Binary Search
+* Laicode 17: Closest In Sorted Array
+  * *Medium*
+  * Binary Search
+* [Leetcode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/): Find First and Last Position of Element in Sorted Array
+  * *Medium*
+  * Binary Search
+* [Leetcode 658](https://leetcode.com/problems/find-k-closest-elements/): Find K Closest Elements
+  * *Medium*
+  * Binary Search
+* [Leetcode 744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/): Find Smallest Letter Greater Than Target
+  * Easy
+  * Binary Search
+* Laicode 202: Kth Smallest In Two Sorted Arrays
+  * Hard
+  * Binary Search
+* [Leetcode 702](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/): Search in a Sorted Array of Unknown Size
+  * *Medium*
+  * Binary Search
+
+
 
 
