@@ -93,7 +93,7 @@
   * Easy
   * Binary Search
 * Laicode 202: Kth Smallest In Two Sorted Arrays
-  * Hard
+  * **Hard**
   * Binary Search
 * [Leetcode 702](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/): Search in a Sorted Array of Unknown Size
   * *Medium*
