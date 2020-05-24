@@ -134,6 +134,25 @@
 * [Leetcode 75](https://leetcode.com/problems/sort-colors/): Sort Colors
   * *Medium*
   * Sort
+* [Leetcode 155](https://leetcode.com/problems/min-stack/): Min Stack
+  * Easy
+  * Stack
+* [Leetcode 232](https://leetcode.com/problems/implement-queue-using-stacks/): Implement Queue using Stacks
+  * Easy
+  * Stack
+* [Leetcode 150](https://leetcode.com/problems/evaluate-reverse-polish-notation/): Evaluate Reverse Polish Notation
+  * *Medium*
+  * Stack
+* [Leetcode 84](https://leetcode.com/problems/largest-rectangle-in-histogram/): Largest Rectangle in Histogram
+  * **Hard**
+  * Stack
+* [Leetcode 225](https://leetcode.com/problems/implement-stack-using-queues/): Implement Stack using Queues
+  * Easy
+  * Queue
+* [Leetcode 641](https://leetcode.com/problems/design-circular-deque/): Design Circular Deque
+  * *Medium*
+  * Queue
+
 
 
 
