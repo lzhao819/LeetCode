@@ -98,6 +98,49 @@
 * [Leetcode 702](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/): Search in a Sorted Array of Unknown Size
   * *Medium*
   * Binary Search
+* Laicode 85: Is A Substring
+  * *Medium*
+  * String
+* [Leetcode 392](https://leetcode.com/problems/is-subsequence/): Is Subsequence
+  * Easy
+  * String
+* [Leetcode 389](https://leetcode.com/problems/find-the-difference/): Find The Difference
+  * Easy
+  * String
+* [Leetcode 509](https://leetcode.com/problems/fibonacci-number/): Fibonacci Number
+  * Easy
+  * Recursion
+* [Leetcode 50](https://leetcode.com/problems/powx-n/): Pow(x, n)
+  * *Medium*
+  * Recursion
+* Laicode 4: Selection Sort
+  * Easy
+  * Sort
+* Laicode 280: Sort With 2 Stacks
+  * *Medium*
+  * Sort
+* Laicode 9: Merge Sort
+  * *Medium*
+  * Sort
+* [Leetcode 56](https://leetcode.com/problems/merge-intervals/): Merge Intervals
+  * *Medium*
+  * Sort
+* Laicode 10: Quick Sort
+  * *Medium*
+  * Sort
+* Laicode 258: Move 0s To The End
+  * Easy
+  * Sort
+* [Leetcode 75](https://leetcode.com/problems/sort-colors/): Sort Colors
+  * *Medium*
+  * Sort
+
+
+
+  
+
+
+    
 
 
 
