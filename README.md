@@ -152,7 +152,48 @@
 * [Leetcode 641](https://leetcode.com/problems/design-circular-deque/): Design Circular Deque
   * *Medium*
   * Queue
-
+* [Leetcode 206](https://leetcode.com/problems/reverse-linked-list/): Reverse Linked List
+  * Easy
+  * LinkedList
+* [Leetcode 92](https://leetcode.com/problems/reverse-linked-list-ii/): Reverse Linked List II
+  * *Medium*
+  * LinkedList
+* [Leetcode 876](https://leetcode.com/problems/middle-of-the-linked-list/): Middle of the Linked List
+  * Easy
+  * LinkedList
+* [Leetcode 141](https://leetcode.com/problems/linked-list-cycle/): Linked List Cycle
+  * Easy
+  * LinkedList
+* [Leetcode 142](https://leetcode.com/problems/linked-list-cycle-ii/): Linked List CycleII
+  * *Medium*
+  * LinkedList
+* [Leetcode 147](https://leetcode.com/problems/insertion-sort-list/): Insertion Sort List
+  * *Medium*
+  * LinkedList
+* [Leetcode 21](https://leetcode.com/problems/merge-two-sorted-lists/): Merge Two Sorted Lists
+  * Easy
+  * LinkedList
+* [Leetcode 143](https://leetcode.com/problems/reorder-list/): Reorder List
+  * *Medium*
+  * LinkedList
+* [Leetcode 86](https://leetcode.com/problems/partition-list/): Partition List
+  * *Medium*
+  * LinkedList
+* [Leetcode 148](https://leetcode.com/problems/sort-list/): Sort List (Merge Sort)
+  * *Medium*
+  * LinkedList
+* [Leetcode 203](https://leetcode.com/problems/remove-linked-list-elements/submissions/): Remove Linked List Elements
+  * Easy
+  * LinkedList
+* [Leetcode 2](https://leetcode.com/problems/add-two-numbers/): Add Two Numbers
+  * *Medium*
+  * LinkedList
+* [Leetcode 445](https://leetcode.com/problems/add-two-numbers-ii/): Add Two Numbers II
+  * *Medium*
+  * LinkedList
+* [Leetcode 234](https://leetcode.com/problems/palindrome-linked-list/): Palindrome Linked List
+  * Easy
+  * LinkedList
 
 
 
