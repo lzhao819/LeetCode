@@ -194,6 +194,23 @@
 * [Leetcode 234](https://leetcode.com/problems/palindrome-linked-list/): Palindrome Linked List
   * Easy
   * LinkedList
+* [Leetcode 344](https://leetcode.com/problems/reverse-string/): Reverse String
+  * Easy
+  * String
+* [Leetcode 151](https://leetcode.com/problems/reverse-words-in-a-string/): Reverse Words in a String
+  * *Medium*
+  * String
+* Laicode 397: Right Shift By N Characters
+  * Easy
+  * String
+* Laicode 172: String Replace
+  * **Hard**
+  * String
+* [Leetcode 47](https://leetcode.com/problems/permutations-ii/): Permutations II
+  * *Medium*
+  * DFS
+
+
 
 
 
