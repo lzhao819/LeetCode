@@ -209,6 +209,24 @@
 * [Leetcode 47](https://leetcode.com/problems/permutations-ii/): Permutations II
   * *Medium*
   * DFS
+* Laicode 65: Permutations II
+  * *Medium*
+  * String
+* Laicode 197: ReOrder Array
+  * **Hard**
+  * String
+* Laicode 611: Compress String II
+  * **Hard**
+  * String
+* [Leetcode 433](https://leetcode.com/problems/string-compression/): String Compression
+  * Easy
+  * String
+* Laicode 175: Decompress String II
+  * **Hard**
+  * String
+* [Leetcode 47](https://leetcode.com/problems/longest-substring-without-repeating-characters/): Longest Substring Without Repeating Characters
+  * *Medium*
+  * String
 
 
 
