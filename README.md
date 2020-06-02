@@ -227,6 +227,37 @@
 * [Leetcode 47](https://leetcode.com/problems/longest-substring-without-repeating-characters/): Longest Substring Without Repeating Characters
   * *Medium*
   * String
+* [Leetcode 54](https://leetcode.com/problems/spiral-matrix/): Spiral Matrix
+  * *Medium*
+  * Recursion
+* Laicode 53: Reverse Linked List In Pairs
+  * *Medium*
+  * Recursion
+* [Leetcode 51](https://leetcode.com/problems/n-queens/): N - Queens
+  * **Hard**
+  * Recursion
+* [Leetcode 231](https://leetcode.com/problems/power-of-two/): Power of Two
+  * Easy
+  * Bit
+* [Leetcode 231](https://leetcode.com/problems/power-of-four/): Power of Four
+  * Easy
+  * Bit
+* Laicode 75: Number Of Different Bits
+  * *Medium*
+  * Bit
+* [Leetcode 338](https://leetcode.com/problems/counting-bits/): Counting Bits
+  * *Medium*
+  * Bit
+* Laicode 77: All Unique Characters II
+  * *Medium*
+  * Bit
+* Laicode 626: Reverse Bits of 32-bit Integer
+  * Easy
+  * Bit
+* [Leetcode 405](https://leetcode.com/problems/convert-a-number-to-hexadecimal/): Convert a Number to Hexadecimal
+  * Easy
+  * Bit
+
 
 
 
