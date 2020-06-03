@@ -109,7 +109,7 @@
   * String
 * [Leetcode 509](https://leetcode.com/problems/fibonacci-number/): Fibonacci Number
   * Easy
-  * Recursion
+  * Recursion, DP
 * [Leetcode 50](https://leetcode.com/problems/powx-n/): Pow(x, n)
   * *Medium*
   * Recursion
@@ -257,6 +257,15 @@
 * [Leetcode 405](https://leetcode.com/problems/convert-a-number-to-hexadecimal/): Convert a Number to Hexadecimal
   * Easy
   * Bit
+* Laicode 86: Longest Ascending SubArray
+  * Easy
+  * DP
+* Laicode 87: Max Product Of Cutting Rope
+  * *Medium*
+  * DP
+* Laicode 88: Array Hopper I
+  * *Medium*
+  * DP
 
 
 
