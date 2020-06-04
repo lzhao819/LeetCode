@@ -236,6 +236,9 @@
 * [Leetcode 51](https://leetcode.com/problems/n-queens/): N - Queens
   * **Hard**
   * Recursion
+* Laicode292: String Abbreviation Matching
+  * *Medium*
+  * Recursion, String
 * [Leetcode 231](https://leetcode.com/problems/power-of-two/): Power of Two
   * Easy
   * Bit
