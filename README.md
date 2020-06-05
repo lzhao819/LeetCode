@@ -227,18 +227,30 @@
 * [Leetcode 47](https://leetcode.com/problems/longest-substring-without-repeating-characters/): Longest Substring Without Repeating Characters
   * *Medium*
   * String
-* [Leetcode 54](https://leetcode.com/problems/spiral-matrix/): Spiral Matrix
+* Laicode 121: Spiral Matrix (N * N)
   * *Medium*
-  * Recursion
+  * Recursion, Array
+* [Leetcode 54](https://leetcode.com/problems/spiral-matrix/): Spiral Matrix (M * N)
+  * *Medium*
+  * Array
 * Laicode 53: Reverse Linked List In Pairs
   * *Medium*
-  * Recursion
+  * Recursion, LinkedList
 * [Leetcode 51](https://leetcode.com/problems/n-queens/): N - Queens
   * **Hard**
-  * Recursion
+  * Recursion, DFS
 * Laicode292: String Abbreviation Matching
   * *Medium*
   * Recursion, String
+* Laicode 646: Store Number Of Nodes In Left Subtree
+  * *Medium*
+  * Recursion, Tree
+* [Leetcode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/): Lowest Common Ancestor of a Binary Tree
+  * *Medium*
+  * Recursion, Tree
+* [Leetcode 156](https://leetcode.com/problems/binary-tree-upside-down/): Binary Tree Upside Down
+  * *Medium*
+  * Recursion, Tree
 * [Leetcode 231](https://leetcode.com/problems/power-of-two/): Power of Two
   * Easy
   * Bit

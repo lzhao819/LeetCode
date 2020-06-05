@@ -1,48 +1,48 @@
-//54
-public class Solution {
+//54 Spiral Matrix (M * N)
+class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
-        
-        List<Integer> res = new ArrayList<Integer>();
-        
-        if (matrix.length == 0) {
-            return res;
+        List<Integer> result = new ArrayList<>();
+        if(matrix.length==0) return result;
+        int left = 0;
+        int right = matrix[0].length-1;
+        int up = 0;
+        int down = matrix.length-1;
+
+        while(left < right && up < down){
+          for(int i=left; i<=right; i++){
+            result.add(matrix[up][i]);
+          }
+          for(int i=up+1; i<=down-1; i++){
+            result.add(matrix[i][right]);
+          }
+          for(int i=right; i>=left; i--){
+            result.add(matrix[down][i]);
+          }
+          for(int i=down-1; i>=up+1; i--){
+            result.add(matrix[i][left]);
+          }
+          left++;
+          right--;
+          up++;
+          down--;
         }
-        
-        int rowBegin = 0;
-        int rowEnd = matrix.length-1;
-        int colBegin = 0;
-        int colEnd = matrix[0].length - 1;
-        
-        while (rowBegin <= rowEnd && colBegin <= colEnd) {
-            // Traverse Right
-            for (int j = colBegin; j <= colEnd; j ++) {
-                res.add(matrix[rowBegin][j]);
-            }
-            rowBegin++;
-            
-            // Traverse Down
-            for (int j = rowBegin; j <= rowEnd; j ++) {
-                res.add(matrix[j][colEnd]);
-            }
-            colEnd--;
-            
-            if (rowBegin <= rowEnd) {
-                // Traverse Left
-                for (int j = colEnd; j >= colBegin; j --) {
-                    res.add(matrix[rowEnd][j]);
-                }
-            }
-            rowEnd--;
-            
-            if (colBegin <= colEnd) {
-                // Traver Up
-                for (int j = rowEnd; j >= rowBegin; j --) {
-                    res.add(matrix[j][colBegin]);
-                }
-            }
-            colBegin ++;
+
+        //base case: nothing left/ one row left/ one column left
+        //1 nothing left
+        if(left>right || up>down){
+          return result;
         }
-        
-        return res;
+        //2 one col left
+        if(left==right){
+          for(int i=up;i<=down;i++){
+            result.add(matrix[i][left]);
+          }
+        }else{
+          //3 one row left
+          for(int i=left; i<=right;i++){
+            result.add(matrix[up][i]);
+          }
+        }
+        return result;
     }
 }
