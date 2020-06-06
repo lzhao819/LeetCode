@@ -254,7 +254,7 @@
 * [Leetcode 231](https://leetcode.com/problems/power-of-two/): Power of Two
   * Easy
   * Bit
-* [Leetcode 231](https://leetcode.com/problems/power-of-four/): Power of Four
+* [Leetcode 342](https://leetcode.com/problems/power-of-four/): Power of Four
   * Easy
   * Bit
 * Laicode 75: Number Of Different Bits
@@ -280,6 +280,21 @@
   * DP
 * Laicode 88: Array Hopper I
   * *Medium*
+  * DP
+* Laicode 89: Array Hopper II
+  * *Medium*
+  * DP
+* Laicode 97: Largest SubArray Sum
+  * *Medium*
+  * DP, Array
+* Laicode 99: Dictionary Word I
+  * *Medium*
+  * DP, String
+* Laicode 100: Edit Distance
+  * *Medium*
+  * DP, String
+* Laicode 101: Largest Square Of 1s
+  * **Hard**
   * DP
 
 

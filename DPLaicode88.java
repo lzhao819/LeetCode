@@ -10,8 +10,8 @@
 
 // {2, 1, 1, 0, 2}, we are not able to reach the end of array
 public class Solution {
-  //Method1 DP(recommanded)
-  public boolean canJump(int[] array) {
+  //Method1 DP(recommanded) from right to left
+  public boolean canJumpI(int[] array) {
     if(array.length==1){
       return true;
     }
@@ -21,7 +21,7 @@ public class Solution {
       if(i+array[i] >= array.length-1){
         canJump[i] = true;
       }else{
-        //if ant of the reachabel indices from index i
+        //if any of the reachable indices from index i
         //is reachable to the end of the array
         for(int j=array[i];j>=1;j--){
           if(canJump[j+i]){
@@ -33,4 +33,21 @@ public class Solution {
     }
     return  canJump[0];
   }
+
+  //Method2:DP jump from left to right
+  public boolean canJumpII(int[] array) {
+    if(array.length==1) return true;
+    boolean M[] = new boolean[array.length];
+    M[0]=true;
+    for(int i =1; i<array.length;i++){
+      for(int j=0;j<i;j++){
+        if(M[j] && j + array[j]>=i){
+          M[i]=true;
+          break;
+        }
+      }
+    }
+    return M[array.length-1];
+  }
+
 }

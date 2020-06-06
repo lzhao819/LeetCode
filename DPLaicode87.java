@@ -11,6 +11,7 @@ public class Solution {
   //Method1 左大段 + 右小段(reconmmanded)
   public int maxProduct(int length) {
     //assume length>2
+    //index of M represent the length og the rope, M[i] represent the max product 
     int[] M=new int[length+1];
     M[1]=0;
     for(int i=2;i<=length;i++){
@@ -18,7 +19,7 @@ public class Solution {
       for(int j=1;j<i;j++){
         //for the left partition, we can choose not cut it or cut it
         //so the max number we can get is either j or M[j]
-       M[i] = Math.max(M[i],Math.max(M[j],j)*(i-j));
+       M[i] = Math.max(M[i],Math.max(j, M[j])*(i-j));
       }
     }
     return M[length];
