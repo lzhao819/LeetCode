@@ -167,6 +167,9 @@
 * [Leetcode 142](https://leetcode.com/problems/linked-list-cycle-ii/): Linked List CycleII
   * *Medium*
   * LinkedList
+* Laicode 39: Insert In Sorted Linked List
+  * Easy
+  * LinkedList
 * [Leetcode 147](https://leetcode.com/problems/insertion-sort-list/): Insertion Sort List
   * *Medium*
   * LinkedList
@@ -227,13 +230,19 @@
 * [Leetcode 47](https://leetcode.com/problems/longest-substring-without-repeating-characters/): Longest Substring Without Repeating Characters
   * *Medium*
   * String
+* [Leetcode 438](https://leetcode.com/problems/find-all-anagrams-in-a-string/): Find All Anagrams in a String
+  * *Medium*
+  * String
+* Laicode 625: Longest subarray contains only 1s
+  * *Medium*
+  * String
 * Laicode 121: Spiral Matrix (N * N)
   * *Medium*
   * Recursion, Array
 * [Leetcode 54](https://leetcode.com/problems/spiral-matrix/): Spiral Matrix (M * N)
   * *Medium*
   * Array
-* Laicode 53: Reverse Linked List In Pairs
+* Laicode 35: Reverse Linked List In Pairs
   * *Medium*
   * Recursion, LinkedList
 * [Leetcode 51](https://leetcode.com/problems/n-queens/): N - Queens
