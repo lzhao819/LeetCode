@@ -26,7 +26,7 @@ Class ListNode{
     		throw new IndexOutOfBoundException("index<0!");
     	}
     	while(head!=null && index>0){
-    		head= head.next;
+    		head = head.next;
     		index--;
     	}
     	index!= 0? return null : return head.value;

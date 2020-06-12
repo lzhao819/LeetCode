@@ -26,6 +26,9 @@
 * [Leetcode 215](https://leetcode.com/problems/kth-largest-element-in-an-array/): Kth Largest Element in an Array
   * **Hard**
   * Heap
+* Laicode 27: Kth Smallest Sum In Two Sorted Arrays
+  * *Medium*
+  * Heap, BFSII
 * [Leetcode 450](https://leetcode.com/problems/delete-node-in-a-bst/): Delete Node in a BST
   * *Medium*
   * Tree
@@ -305,8 +308,24 @@
 * Laicode 101: Largest Square Of 1s
   * **Hard**
   * DP
-
-
+* Laicode 103:  Longest Consecutive 1s
+  * Easy
+  * DP
+* Laicode 104: Longest Cross Of 1s
+  * **Hard**
+  * DP
+* Laicode 105: Largest X Of 1s
+  * **Hard**
+  * DP
+* Laicode 637: Largest Square Surrounded By One
+  * *Medium*
+  * DP
+* Laicode 638: Largest Square Of Matches
+  * *Medium*
+  * DP
+* Laicode 106: Largest SubMatrix Sum
+  * **Hard**
+  * DP
 
 
 
