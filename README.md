@@ -95,7 +95,7 @@
 * [Leetcode 744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/): Find Smallest Letter Greater Than Target
   * Easy
   * Binary Search
-* Laicode 202: Kth Smallest In Two Sorted Arrays
+* Laicode 202: Kth Smallest In Two Sorted Arrays(Todo)
   * **Hard**
   * Binary Search
 * [Leetcode 702](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/): Search in a Sorted Array of Unknown Size
@@ -149,10 +149,16 @@
 * [Leetcode 84](https://leetcode.com/problems/largest-rectangle-in-histogram/): Largest Rectangle in Histogram
   * **Hard**
   * Stack
+* Laicode 613: Design Circular Deque
+  * *Medium*
+  * Stack
 * [Leetcode 225](https://leetcode.com/problems/implement-stack-using-queues/): Implement Stack using Queues
   * Easy
   * Queue
 * [Leetcode 641](https://leetcode.com/problems/design-circular-deque/): Design Circular Deque
+  * *Medium*
+  * Queue
+* Laicode 614: Design Circular Queue
   * *Medium*
   * Queue
 * [Leetcode 206](https://leetcode.com/problems/reverse-linked-list/): Reverse Linked List
