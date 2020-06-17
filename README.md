@@ -332,7 +332,24 @@
 * Laicode 106: Largest SubMatrix Sum
   * **Hard**
   * DP
-
+* Laicode 108: Perfect Shuffle
+  * *Medium*
+  * Probability
+* [Leetcode 384](https://leetcode.com/problems/shuffle-an-array/): Shuffle an Array
+  * *Medium*
+  * Probability
+* Laicode 109: Reservoir Sampling
+  * *Medium*
+  * Probability
+* Laicode 110: Generalized Reservoir Sampling
+  * *Medium*
+  * Probability
+* Laicode 111: Random7 Using Random5
+  * *Medium*
+  * Probability
+* [Leetcode 470](https://leetcode.com/problems/implement-rand10-using-rand7/): Implement Rand10() Using Rand7()
+  * *Medium*
+  * Probability
 
 
 
