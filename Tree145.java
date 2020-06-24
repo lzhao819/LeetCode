@@ -20,4 +20,39 @@ public class Solution {
   }
 }
 
-//another method is to check the relaton ship between current node and previous node
+//another method is to check the relatonship between current node and previous node
+public void postOrder(TreeNode root) {
+  //Time O(n) Space O(height)
+  //initial check
+  if(root==null) return;
+  //local variables
+  Deque<TreeNode> stack = new LinkedList<>();
+  TreeNode prev =null;
+  stack.offerFirst(root);
+  //3
+  while(!stack.isEmpty()){
+    TreeNode current = stack.peekFirst();
+    //going down
+    if(prev==null||current==prev.left||current==prev.right){
+      if(current.left!=null){
+        stack.offerFirst(current.left);
+      }else if(current.right!=null){
+        stack.offerFirst(current.right);
+      }else{
+        System.out.println(current.value);
+        stack.pollFirst();
+      }
+    }else if(prev==cur.left){//from left subtree
+      if(current.right!=null){
+        stack.offerFirst(current.right);
+      }else{
+        System.out.println(current.value);
+        stack.pollFirst();
+      }
+    }else{//from right subtree
+      System.out.println(current.value);
+      stack.pollFirst();
+    }
+    prev = current;
+  }
+}

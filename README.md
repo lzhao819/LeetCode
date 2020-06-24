@@ -350,6 +350,15 @@
 * [Leetcode 470](https://leetcode.com/problems/implement-rand10-using-rand7/): Implement Rand10() Using Rand7()
   * *Medium*
   * Probability
+* Laicode 112: Random1000 Using Random5
+  * *Medium*
+  * Probability
+* Laicode 114: 95 Percentile
+  * *Medium*
+  * Probability
+* [Leetcode 295](https://leetcode.com/problems/find-median-from-data-stream/): Find Median from Data Stream
+  * **Hard**
+  * Heap
 
 
 
