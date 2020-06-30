@@ -1,0 +1,101 @@
+//Review DFS
+//1 all subset I
+public List<String> subSets(String set){
+	List<String> result = new ArrayList<>();
+	if(set==null) return result;
+	char[] array = set.toCharArray();
+	StringBuilder sb = new StringBuilder();
+	helper(result, array, sb, 0);
+	return result;
+}
+private void helper(List<String> result, char[] array, StringBuilder sb, int index){
+	if(index==array.length){
+		result.add(sb.toString());
+		return;
+	}
+	//not choose the elmt
+	helper(result, array, sb, index+1);
+	//choose the elment
+	helper(result, array, sb.append(array[index]), index+1);
+	//delete when backtracking
+	sb.deleteCharAt(sb.length()-1);
+}
+
+//2 validParentheses
+public List<String> validParentheses(int n) {
+	List<String> result = new ArrayList<>();
+	if(n<=0) return result;
+	char[] combi = new char[n*2];
+	helper(combi, result, n, 0, 0, 0);
+	return result;
+}
+private void helper(char[] combi, List<String> result, int n, int index, int left, int right){
+	if(right==n && left==n){
+		result.add(new String(combi));
+		return;
+	}
+	//add "("
+	if(left<n){
+		combi[index]='(';
+		helper(combi, result, n, index+1, left+1, right);
+	}
+	if(left>right){
+		combi[index]=')';
+		helper(combi, result, n, index+1, left, right+1);
+	}
+}
+
+//3 Combinations Of Coins
+public List<List<Integer>> combinations(int target, int[] coins) {
+	//每层考虑一种硬币
+	List<List<Integer>> result = new ArrayList<List<Integer>>();
+	if(coins==null || target<=0) return result;
+	List<Integer> choice = new ArrayList<Integer>();
+	helper(target, coins, 0, choice, result);
+	return result;
+}
+private void helper(int target, int[] coins, int index, List<Integer> choice, List<List<Integer>> result){
+	//terminate condition
+	if(index==coins.length-1){
+		if(target%coins[coins.length-1]==0){
+			choice.add(target/coins[coins.length-1]);
+			result.add(new ArrayList<>(choice));
+        	choice.remove(choice.size()-1);
+		}
+		return;
+	}
+	//pick 
+	int max = target/coins[index];
+	for(int i=0; i<=max;i++){
+		choice.add(i);
+		helper(target-i*coins[index], coins, index+1, choice, result);
+		//back to current level
+		choice.remove(choice.size()-1);
+	}
+}
+
+//4 All permutation
+public List<String> permutations(String input) {
+List<String> result = new ArrayList<String>();
+char[] array = input.toCharArray();
+helper(array, result, 0);
+return result;
+}
+private void helper(char[] array,List<String> result,int index){
+if(index==array.length){
+  result.add(new String(array));
+  return;
+}
+for(int i= index;i<array.length;i++){
+  swap(array,index,i);
+  helper(array,result,index+1);
+  swap(array,index,i);
+}
+}
+
+private void swap(char[] array, int a, int b){
+char temp = array[a];
+array[a] = array[b];
+array[b] = temp;
+}
+}
