@@ -1,0 +1,300 @@
+Midterm I Review 
+Q1: N Queens
+Find all valid ways of putting N Queens on an N * N chessboard so that no two Queens can attack each other (two queens can attack each other if they are on the same row/column or same diagonal line). 
+
+You can define your own way of how to print the solution, e.g. using a size N array/List to record which column the queen occupies on each row.
+
+Assumption:
+1. input>0
+2. output is an array of integer which represents the position o n queens. The index is the row, the value is the column.
+
+High level: use DFS to generate all the possible solutions.
+
+Details:
+Recursion Tree: each node represent which column queen on current row is placed on
+                                root(N=8)
+            /                   |         |   |     \
+level0  Q0 on(0,0)             (0,1)    (0,2)...  (0,7)
+          /     |   |    |  \
+level1  Q1(1,0)(1,1)(1,2)...(1,7)...
+...
+level7
+
+1. As the queen can only be placed on different column and different row, we place qi on rowi and only consider different column.
+2. Starting from row 0, place Q0 from column 0 to column n-1, after the placement, start to place q2 on second row...until row n-1
+3. The queen can only be placed on valid position. 
+    (1)For all array[i], it cannot be the same with current col; 
+    (2)The difference between array[i] and current column cannot be the same with the differentce between m and currrent row.
+
+Time O(N*N!)
+Space O(N)
+
+Code:
+public class Solution{
+    public List<List<Integer>> nqueens(int n){
+        //return all the possible solution as a list
+        List<List<Integer>> result = new ArrayList<List<Integer>>();
+        //save the current placement solution, list's size is n and current[i] is the column where queen on row i is placed on
+        List<Integer> current = new ArrayList<Integer>();
+        DFS(result, current, n);
+        return result;
+    }//
+    private void DFS(List<List<Integer>> result, List<Integer> current, int n){
+        //base case
+        //if size ==n means all the queen has benn placed on the board
+        if(current.size()==n){
+            result.add(new ArrayList<>(current));
+            return;
+        }
+        for(int i=0;i<n;i++){
+            if(valid(current, i)){
+                current.add(i);//吃
+                DFS(result, current, n);
+                current.remove(current.size()-1);//吐
+            }
+        }
+    }//
+    // valid the queen position in O(n) each time
+    private boolean valid(List<Integer> current, int col){
+        int row = current.size();
+        for(int i=0;i<row;i++){
+            if(current.get(i)==col || Math.abs(current.get(i)-col)==row -i){
+                return false;
+            }
+        }
+        return true;
+    }//
+}
+
+Q2: Maximum Leaves Sum
+Given a binary tree in which each node contains an int number.
+
+Find the maximum possible sum from any leaf node to another leaf node.
+
+The maximum sum path may or may not go through root.
+
+Expected time complexity is O(n).
+
+Assumption:
+if root==null, return Integer.MIN_VALUE;
+
+High Level: Tree Recursion
+Detail: 
+1. use a globalMax to track the final result
+2. what do we want from lchild and rchild?
+    from lchild:the maximum of all the "root to leaf" path sum of left subtree
+    from rchild: the maximum of al the "root to leaf" path sum of right subtree
+3. what do we do on current node?
+    globalMax = Math.max(lchild + rchild + current, globalMax)
+4. what do we return to parent node?
+    Max path sum from "root to leaf" : Max(left+current, right+current)
+    cases: root         root            root        root
+          /    \        /   \           /   \       /   \
+          l     r       l   null      null  r      null null
+
+Code:
+public class Solution{
+    public int maxSum(TreeNode root){
+        //use globalMax[] to keep track of the result
+        int[] globalMax = new int[1];
+        globalMax[0] = Integer.MIN_VALUE;
+        maxSumInner(root, globalMax);
+        return globalMax[0];
+    }
+    private int maxSumInner(TreeNode root, int[] globalMax){
+        if(root==null){
+            return 0;
+        }else{
+            int lChild = maxSumInner(root.left, globalMax);
+            int rChild = maxSumInner(root.right, globalMax);
+            //remember to check the cases when child is null
+            if(root.left!=null && root.right!=null){
+                globalMax[0] = Math.max(lChild + rChild + root.value, globalMax[0]);
+            }
+            return root.left==null? rChild + root.value : lChild + root.value;   
+        }
+    }
+}
+
+Time O(n): each node is O(1)
+Space O(height)
+
+Q3: Minimum Cuts For Palindromes
+Given a string, a partitioning of the string is a palindrome partitioning if every partition is a palindrome.
+
+For example, “aba |b | bbabb |a| b| aba” is a palindrome partitioning of “ababbbabbababa”.
+
+Determine the fewest cuts needed for palindrome partitioning of a given string.
+
+For example,
+
+minimum 3 cuts are needed for “ababbbabbababa”. The three cuts are “a | babbbab | b | ababa”.
+
+If a string is palindrome, then minimum 0 cuts are needed.
+
+Return the minimum cuts.
+
+Assumption: minimum cut for palindrome string is 0
+
+High Level: this is a DP problem 
+
+Details:
+1. Divide the whole string into two part: larger left part + smaller right part
+2. Use M[i] to save minimum cut to make substring [0,i] a palindrome partitioning.
+3. Base case: M[0] = 0;(one letter string is a palindrome) 
+4. Induction rule: M[i] = 0, if substring [0,i] is palindrome.
+                          min(M[j-1])+1, for j from 1 to i && if substring[j,i] is a palindrome (two part [0,j-1] and [j, i])
+5. result return M[M.length-1];
+
+Code:
+public class Solution{
+    public int minCut(String str){
+        //corner case
+        if(str==null|| str.length()<=1) return 0;
+        //M[i] is minimum cut to make substring [0,i] a palindrome partitioning.
+        int[] M = new int[str.length()];
+        //base case
+        M[0]=0;
+        for(int i = 1; i<str.length(); i++){
+            //cut between 0 and i, two parts [0,j-1], [j,i]
+            if(valid(str, 0, i)){
+                //coner case: if j==0 is valid, means [0,i] is a palindrome partitioning already
+                M[i]=0;
+            }else{
+                M[i] = i;
+                for(int j=1;j<=i;j++){
+                    //check left part[0,j-1] from M, check right part [j,i] using valid function
+                    if(valid(str, j, i)){
+                        M[i]= Math.min(M[j-1]+1, M[i]);
+                    }
+                }
+            }
+        }
+        return M[str.length()-1];
+    }
+    //check if [left, right] is palindrome
+    private boolean valid(String str, int left, int right){
+        while(left<=right){
+            if(str.charAt(left)!=str.charAt(right)){
+                return false;
+            }
+            right--;
+            left++;
+        }
+        return true;
+    }
+}
+
+Time O(n*n*n): n layers, and for each layer we need n*n 
+Space O(n): M[]
+
+Q4: All Valid Permutations Of If Blocks
+Given an integer n, print/output all possible ways of writing n pairs of if blocks with correct indentation.
+
+Say n=2 output should be
+if {
+
+}
+
+if {
+
+}
+
+<newline>
+
+if {
+
+  if {// here should exist two spaces before each inner block
+
+  }
+
+}
+
+Assumption: 
+input is integer # of if blocks, output is all possible blocks
+if n<=0, print nothing
+
+High Level: DFS
+
+Details:
+1. we can treat if{} pairs as () pairs and find all the valid combination first then add "if" and space format
+2. there are 2n position in total, each time we put "(" or ")"
+3. when we put ")" we need to make sure its pair with valid "(" which means the numer of"(" is larger than number of ")" so far
+
+recursion tree:
+                               empty
+                        /                 \
+position0              add(                add)
+                      /   \                /   \
+position1           ((    ()              )(   ))
+...
+position 2n-1
+
+Code:
+public class Solution{
+    public List<String> printBlocks(int n){
+        //save result to a list
+        List<String> result = new ArrayList<>();
+        //corner case
+        if(n<=0) return;
+        //save permutation
+        char[] pairs = new char[2*n];
+        DFS(pairs,n,0,0,0);
+    }
+    /**
+        pairs: the char array
+        n: the number of if blocks
+        index: the current index in pairs array
+        l: used left paras number
+        r: used right paras number
+    **/
+    private void DFS(char[] pairs, int n, int index, int l, int r){
+        //termination conditon
+        if(l==n && r==n){
+            result.add(addFormat(pairs));
+            return;
+        }
+        //add"{"
+        if(l<n){
+            pairs[index] = '{';
+            DFS(pairs,n,index+1, l+1, r);
+        }
+        //add"}"
+        if(r<l){
+            pairs[index] = '}';
+            DFS(pairs, n, index+1, l,r+1);
+        }
+    }
+    private String addFormat(char[] pairs){
+        StringBuilder sb = new StringBuilder("");
+        int space = 0;
+        for(int i=0;i<pair.length;i++){
+            if(pairs[i]=='{'){
+                //append space
+                for(int i=0;i<space;i++){
+                    sb.append('\t');
+                }
+                sb.append("if{");
+                space+=2;
+            }else{
+                space-=2;
+                //append space
+                for(int i=0;i<space;i++){
+                    sb.append('\t');
+                }
+                sb.append('}');
+            }
+        }
+        return new String(sb);
+    }
+}
+
+Time O(n^(2n)*n*n)
+Space O(n)
+
+
+
+
+
+
+

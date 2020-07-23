@@ -332,6 +332,9 @@
 * Laicode 106: Largest SubMatrix Sum
   * **Hard**
   * DP
+* Laicode 143: Minimum Cuts For Palindromes
+  * *Medium*
+  * DP
 * Laicode 108: Perfect Shuffle
   * *Medium*
   * Probability
