@@ -11,11 +11,35 @@
 * [Leetcode 101](https://leetcode.com/problems/symmetric-tree/): Symmetric Tree
   * Easy
   * Tree
-* [Leetcode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/): Maximum Depth of Binary Tree
+* [LeetCode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/): Maximum Depth of Binary Tree
   * Easy
   * Tree
-* [Leetcode 110](https://leetcode.com/problems/balanced-binary-tree/): Balanced Binary Tree
+* [Balanced Binary Tree](BalancedTree.java) - [LeetCode110](https://leetcode.com/problems/balanced-binary-tree/) 
   * Easy
+  * Tree, Recursion
+* [Maximum Path Sum Binary Tree I](MaximumPathSumBinaryTreeI.java) - [LaiCode138](https://app.laicode.io/app/problem/138)
+  * *Medium*
+  * Tree, Recursion
+* [Maximum Path Sum Binary Tree II](MaximumPathSumBinaryTreeII.java) - [LeetCode124](https://leetcode.com/problems/binary-tree-maximum-path-sum)
+  * **Hard**
+  * Tree, Recursions
+* [Maximum Path Sum Binary Tree III](MaximumPathSumBinaryTreeIII.java) - [LaiCode140](https://app.laicode.io/app/problem/140)
+  * *Medium*
+  * Tree, Recursion
+* [Max Path Sum Leaf To Root](MaxPathSumLeafToRoot.java) - [LaiCode639](https://app.laicode.io/app/problem/639)
+  * *Medium*
+  * Tree, Recursion
+* [Binary Tree Path Sum To Target III](BinaryTreePathSumToTargetIII.java) - [LaiCode141](https://app.laicode.io/app/problem/141)
+  * *Medium*
+  * Tree, Recursion
+* [Flatten Binary Tree to Linked List](FlattenBinaryTree.java) - [LeetCode144](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+  * *Medium*
+  * Tree, DFS
+* [Construct Binary Tree from Preorder and Inorder Traversal](ReconstructBinaryTreeP&I.java) - [LeetCode105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+  * *Medium*
+  * Tree
+* [Construct Binary Tree from Preorder Traversal](ReconstructBinaryTreeP.java) - [LeetCode1028](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)
+  * **Hard**
   * Tree
 * [Leetcode 144](https://leetcode.com/problems/binary-tree-preorder-traversal/): Binary Tree Preorder Traversal
   * *Medium*
@@ -53,8 +77,17 @@
 * [Leetcode 78](https://leetcode.com/problems/subsets/) [90](https://leetcode.com/problems/subsets-ii/): Subsets
   * *Medium*
   * DFS
+* Laicode 63: All Subsets II(with duplicate)
+  * **Hard**
+  * DFS
+* Laicode 640 All Subsets of Size K (no duplication)
+  * *Medium*
+  * DFS
 * [Leetcode 22](https://leetcode.com/problems/generate-parentheses/): Generate Parentheses
   * *Medium*
+  * DFS
+* Laicode 179: All Valid Permutations Of Parentheses II
+  * **Hard**
   * DFS
 * [Leetcode 39](https://leetcode.com/problems/combination-sum/): Combination Sum
   * *Medium*

@@ -110,6 +110,7 @@ public class Solution{
             //remember to check the cases when child is null
             if(root.left!=null && root.right!=null){
                 globalMax[0] = Math.max(lChild + rChild + root.value, globalMax[0]);
+                return Math.max(lSum, rSum) + root.key;
             }
             return root.left==null? rChild + root.value : lChild + root.value;   
         }

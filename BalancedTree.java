@@ -1,5 +1,6 @@
+//Balanced Binary Tree
+//a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
 /**
- * Definition for a binary tree node.
  * public class TreeNode {
  *     int val;
  *     TreeNode left;
@@ -13,16 +14,16 @@
  *     }
  * }
  */
+//In Time O(n)
+//Space O(height) 
 class Solution {
     public boolean isBalanced(TreeNode root) {
         return getHeight(root)!=-1;
-        
     }
     
     private int getHeight(TreeNode root){
          /*If difference between heights of left and right subtrees 
-            is more than 2 then this node is not balanced*/ 
-            
+            is more than 2 then this node is not balanced*/  
         if(root==null){
             return 0;
         }
@@ -34,6 +35,5 @@ class Solution {
             }
         }
         return -1;  
-    }
-    
+    }  
 };

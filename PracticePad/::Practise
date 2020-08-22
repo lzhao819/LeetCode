@@ -1,0 +1,130 @@
+//Practise
+//define the class for each entry
+public class myHashMap<K, V>{
+	public static class Pair<K, V>{
+		final K key;
+		V value;
+		Pair<K, V> next;
+		//constructor
+		Pair(K key, V value){
+			this.key=key;
+			this.value=value;
+			next=null;
+		}
+		public K getKey(){
+			return key;
+		}
+		public V getValue(){
+			return value;
+		}
+		public void setValue(V value){
+			this.value = value;
+		}
+	}
+
+	private static final int DEAULT_CAPACITY = 16;
+	private static final float DEALT_LOAD_FACTOR = 0.75f;
+
+	private Pair<K,V>[] array;
+	private int size;
+	private float loadFactor;
+
+	public myHashMap(){
+		this(DEFALT_CAPACITY, DEFALT_LOADFACTOR);
+	}
+
+	//constructor
+	public myHashMap(int capacity, float loadFmthactor){
+		array=new Pair[capacity];
+		this.loadFactor loadFactor;
+	}
+
+	//get
+	Integer get(String key){
+		int hashNumber = key.hashCode();
+		int index = hashNumber % array.length;
+		Pair cur = array[index];
+		while(cur!=null){
+			if(cur.key==null){
+				if(key==null){
+					return cur.value;
+				}
+			}else{
+				if(cur.key.equals(key)){
+					return cur.value;
+				}
+			}
+			cur = cur.next;
+		}
+		return null;
+	}
+
+	//put
+	Integer put(String key, Integer value){
+		//search
+		int hashNumber = key.hashCode();
+		int index = hashNumber % array.length; 
+		Pair cur = array[index];
+		Integer returnValue;
+		while(cur!=null){
+			if(cur.key==null){
+				if(key==null){
+					returnValue = cur.value;
+					cur.value=value;
+					return returnValue;
+				}
+			}else{
+				if(cur.key.equals(key)){
+					returnValue = cur.value;
+					cur.value = value;
+					return returnValue;
+				}
+			}
+			cur = cur.next;
+		}
+		//if not exist
+		Pair target = new Pair(key, value);
+		target.next = array[index];//insert into the head of the linkedList
+		array[index] = target;
+		//extend capacity if needed
+		if((float)(++size)/array.length >= loadFactor){
+			rehashing();
+		}
+		return null;
+	}
+
+	private void rehashing(){
+		//create new 2*capacity array
+		Pair[] newArray = new Pair[2* array.length];
+		//rehash all elements in old array	
+			//get hashcode
+			//get index
+			//put to newArray
+		for(Pair e : array){
+			Pair cur = e;
+			while(cur!=null){
+				Pair next = cur.next;
+				int hashNumber = cur.hashCode();
+				int index = hashNumber % newArray.length;
+				cur.next = newArray[index];
+				newArray[index] = cur;
+				cur=next;
+			}
+		}
+		array = newArray;
+	}
+
+}
+
+
+
+private int hash(K key){
+	//1 null key
+	if(key==null){
+		return 0;
+	}
+	//2 3 hashCode()
+	return key.hashCode() & 0X7FFFFFFF;//guarantee non negative
+}
+
+

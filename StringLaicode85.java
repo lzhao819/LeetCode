@@ -1,7 +1,7 @@
 //Laicode85 
 //Determine if a small string is a substring of another large string.
 //Return the index of the first occurrence of the small string in the large string.
-//Two Pointer
+//Method 1: Two Pointer Time O(n^2)
 public class Solution {
   public int strstr(String large, String small) {
     if(large.length()<small.length())return -1;
