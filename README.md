@@ -38,8 +38,14 @@
 * [Construct Binary Tree from Preorder and Inorder Traversal](ReconstructBinaryTreeP&I.java) - [LeetCode105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
   * *Medium*
   * Tree
-* [Construct Binary Tree from Preorder Traversal](ReconstructBinaryTreeP.java) - [LeetCode1028](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)
+* [Construct Binary Tree from Levelorder and Inorder Traversal](ReconstructBinaryTreeL&I.java) - [LaiCode215](https://app.laicode.io/app/problem/215)
   * **Hard**
+  * Tree
+* [Construct Binary Search Tree from Postorder](ReconstructBSTPost.java) - [LaiCode211](https://app.laicode.io/app/problem/211)
+  * *Medium*
+  * Tree
+* [Construct Binary Search Tree from Preorder](ReconstructBSTPre.java) - [LeetCode1008](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+  * *Medium*
   * Tree
 * [Leetcode 144](https://leetcode.com/problems/binary-tree-preorder-traversal/): Binary Tree Preorder Traversal
   * *Medium*
@@ -395,6 +401,25 @@
 * [Leetcode 295](https://leetcode.com/problems/find-median-from-data-stream/): Find Median from Data Stream
   * **Hard**
   * Heap
+* [Majority Number I](MajorityNumberI.java) - [LeetCode169](https://leetcode.com/problems/majority-element/)
+  * Easy
+  * Array
+* [Majority Number II](MajorityNumberII.java) - [LeetCode229](https://leetcode.com/problems/majority-element-ii/)
+  * *Medium*
+  * Array, HashMap
+* [Majority Number III](MajorityNumberIII.java) - [LaiCode208](https://app.laicode.io/app/problem/208)
+  * **Hard**
+  * Array, HashMap
+  HashMap, LinkedList
+* [Implement LRU Cache](LRUCache.java) - [LeetCode146](https://leetcode.com/problems/lru-cache/)
+  * *Medium*
+  * HashMap, LinkedList
+* [Maximum Values Of Size K Sliding Windows](MaxOfKSlidingWindows.java) - [LeetCode239](https://leetcode.com/problems/sliding-window-maximum/)
+  * **Hard**
+  * Deque
+* [Kth Smallest In Two Sorted Arrays](.java) - [LeetCode239](https://leetcode.com/problems/sliding-window-maximum/)
+  * **Hard**
+  * Array, BinarySearch
 
 
 
