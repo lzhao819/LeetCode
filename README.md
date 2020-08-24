@@ -410,17 +410,21 @@
 * [Majority Number III](MajorityNumberIII.java) - [LaiCode208](https://app.laicode.io/app/problem/208)
   * **Hard**
   * Array, HashMap
-  HashMap, LinkedList
 * [Implement LRU Cache](LRUCache.java) - [LeetCode146](https://leetcode.com/problems/lru-cache/)
+  * *Medium*
+  * HashMap, LinkedList
+* [First Non-Repeating Character In Stream](FirstNon-RepeatingCharacter.java) - [LaiCode288](https://app.laicode.io/app/problem/288)
   * *Medium*
   * HashMap, LinkedList
 * [Maximum Values Of Size K Sliding Windows](MaxOfKSlidingWindows.java) - [LeetCode239](https://leetcode.com/problems/sliding-window-maximum/)
   * **Hard**
   * Deque
-* [Kth Smallest In Two Sorted Arrays](.java) - [LeetCode239](https://leetcode.com/problems/sliding-window-maximum/)
+* [Kth Smallest In Two Sorted Arrays](KthSmallestInTwoSortedArrays.java) - [LaiCode202](https://app.laicode.io/app/problem/202)
   * **Hard**
   * Array, BinarySearch
-
+* [Valid Parentheses](ValidParentheses.java) - [LeetCode20](https://leetcode.com/problems/valid-parentheses/)
+  * Easy
+  * Stack
 
 
   
