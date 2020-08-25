@@ -119,12 +119,15 @@
 * [Leetcode 1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/): Remove All Adjacent Duplicates in String
   * *Medium*
   * String
-* [Leetcode 704](https://leetcode.com/problems/binary-search/) [74](https://leetcode.com/problems/search-a-2d-matrix/):Classic Binary Search 1D, 2D
+* [Classic Binary Search](ClassicBinarySearch.java) - [Leetcode 704](https://leetcode.com/problems/binary-search/)
+  * Easy
+  * BinarySearch
+* [Search a 2D Matrix](Search2DMatrix.java) - [Leetcode 74](https://leetcode.com/problems/search-a-2d-matrix/)
   * Easy
   * Binary Search
 * Laicode 17: Closest In Sorted Array
   * *Medium*
-  * Binary Search
+  * BinarySearch
 * [Leetcode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/): Find First and Last Position of Element in Sorted Array
   * *Medium*
   * Binary Search
@@ -422,11 +425,18 @@
 * [Kth Smallest In Two Sorted Arrays](KthSmallestInTwoSortedArrays.java) - [LaiCode202](https://app.laicode.io/app/problem/202)
   * **Hard**
   * Array, BinarySearch
+* [Median of Two Sorted Arrays](MedianofTwoSortedArrays.java) - [LeetCode4](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+  * **Hard**
+  * Array, BinarySearch
 * [Valid Parentheses](ValidParentheses.java) - [LeetCode20](https://leetcode.com/problems/valid-parentheses/)
   * Easy
   * Stack
-
-
+* [Search in Rotated Sorted Array](SearchinRotatedSortedArray.java) - [LeetCode33](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+  * *Medium*
+  * BinarySearch
+* [Time Based Key-Value Store](TimeBasedKey-ValueStore.java) - [LeetCode981](https://leetcode.com/problems/time-based-key-value-store/)
+  * *Medium*
+  * BinarySearch
   
 
 
