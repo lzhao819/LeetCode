@@ -1,4 +1,40 @@
 # LeetCode
+* [Classic Binary Search](ClassicBinarySearch.java) - [Leetcode 704](https://leetcode.com/problems/binary-search/)
+  * Easy
+  * BinarySearch
+* [Search a 2D Matrix](Search2DMatrix.java) - [Leetcode 74](https://leetcode.com/problems/search-a-2d-matrix/)
+  * Easy
+  * BinarySearch
+* [Search a 2D MatrixII](Search2DMatrixII.java) - [Leetcode 240](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+  * *Medium*
+  * BinarySearch
+* Laicode 17: Closest In Sorted Array
+  * *Medium*
+  * BinarySearch
+* [Leetcode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/): Find First and Last Position of Element in Sorted Array
+  * *Medium*
+  * BinarySearch
+* [Leetcode 658](https://leetcode.com/problems/find-k-closest-elements/): Find K Closest Elements
+  * *Medium*
+  * BinarySearch
+* [Leetcode 744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/): Find Smallest Letter Greater Than Target
+  * Easy
+  * BinarySearch
+* [Leetcode 702](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/): Search in a Sorted Array of Unknown Size
+  * *Medium*
+  * BinarySearch
+* [Kth Smallest In Two Sorted Arrays](KthSmallestInTwoSortedArrays.java) - [LaiCode202](https://app.laicode.io/app/problem/202)
+  * **Hard**
+  * Array, BinarySearch
+* [Median of Two Sorted Arrays](MedianofTwoSortedArrays.java) - [LeetCode4](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+  * **Hard**
+  * Array, BinarySearch
+* [Search in Rotated Sorted Array](SearchinRotatedSortedArray.java) - [LeetCode33](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+  * *Medium*
+  * BinarySearch
+* [Time Based Key-Value Store](TimeBasedKey-ValueStore.java) - [LeetCode981](https://leetcode.com/problems/time-based-key-value-store/)
+  * *Medium*
+  * BinarySearch
 * [Leetcode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/): Binary Tree Inorder Traversal 
   * *Medium*
   * Tree
@@ -119,30 +155,6 @@
 * [Leetcode 1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/): Remove All Adjacent Duplicates in String
   * *Medium*
   * String
-* [Classic Binary Search](ClassicBinarySearch.java) - [Leetcode 704](https://leetcode.com/problems/binary-search/)
-  * Easy
-  * BinarySearch
-* [Search a 2D Matrix](Search2DMatrix.java) - [Leetcode 74](https://leetcode.com/problems/search-a-2d-matrix/)
-  * Easy
-  * Binary Search
-* Laicode 17: Closest In Sorted Array
-  * *Medium*
-  * BinarySearch
-* [Leetcode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/): Find First and Last Position of Element in Sorted Array
-  * *Medium*
-  * Binary Search
-* [Leetcode 658](https://leetcode.com/problems/find-k-closest-elements/): Find K Closest Elements
-  * *Medium*
-  * Binary Search
-* [Leetcode 744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/): Find Smallest Letter Greater Than Target
-  * Easy
-  * Binary Search
-* Laicode 202: Kth Smallest In Two Sorted Arrays(Todo)
-  * **Hard**
-  * Binary Search
-* [Leetcode 702](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/): Search in a Sorted Array of Unknown Size
-  * *Medium*
-  * Binary Search
 * Laicode 85: Is A Substring
   * *Medium*
   * String
@@ -422,21 +434,9 @@
 * [Maximum Values Of Size K Sliding Windows](MaxOfKSlidingWindows.java) - [LeetCode239](https://leetcode.com/problems/sliding-window-maximum/)
   * **Hard**
   * Deque
-* [Kth Smallest In Two Sorted Arrays](KthSmallestInTwoSortedArrays.java) - [LaiCode202](https://app.laicode.io/app/problem/202)
-  * **Hard**
-  * Array, BinarySearch
-* [Median of Two Sorted Arrays](MedianofTwoSortedArrays.java) - [LeetCode4](https://leetcode.com/problems/median-of-two-sorted-arrays/)
-  * **Hard**
-  * Array, BinarySearch
 * [Valid Parentheses](ValidParentheses.java) - [LeetCode20](https://leetcode.com/problems/valid-parentheses/)
   * Easy
   * Stack
-* [Search in Rotated Sorted Array](SearchinRotatedSortedArray.java) - [LeetCode33](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-  * *Medium*
-  * BinarySearch
-* [Time Based Key-Value Store](TimeBasedKey-ValueStore.java) - [LeetCode981](https://leetcode.com/problems/time-based-key-value-store/)
-  * *Medium*
-  * BinarySearch
   
 
 
