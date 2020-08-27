@@ -1,4 +1,5 @@
 # LeetCode
+## BinarySearch
 * [Classic Binary Search](ClassicBinarySearch.java) - [Leetcode 704](https://leetcode.com/problems/binary-search/)
   * Easy
   * BinarySearch
@@ -35,6 +36,7 @@
 * [Time Based Key-Value Store](TimeBasedKey-ValueStore.java) - [LeetCode981](https://leetcode.com/problems/time-based-key-value-store/)
   * *Medium*
   * BinarySearch
+## Tree
 * [Leetcode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/): Binary Tree Inorder Traversal 
   * *Medium*
   * Tree
@@ -116,6 +118,7 @@
 * [Leetcode 378](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/): Kth Smallest Element in a Sorted Matrix
   * *Medium*
   * BFSII
+## DFS
 * [Leetcode 78](https://leetcode.com/problems/subsets/) [90](https://leetcode.com/problems/subsets-ii/): Subsets
   * *Medium*
   * DFS
@@ -215,6 +218,7 @@
 * Laicode 614: Design Circular Queue
   * *Medium*
   * Queue
+## LinkedList
 * [Leetcode 206](https://leetcode.com/problems/reverse-linked-list/): Reverse Linked List
   * Easy
   * LinkedList
@@ -251,15 +255,22 @@
 * [Leetcode 203](https://leetcode.com/problems/remove-linked-list-elements/submissions/): Remove Linked List Elements
   * Easy
   * LinkedList
-* [Leetcode 2](https://leetcode.com/problems/add-two-numbers/): Add Two Numbers
+* [Add Two Numbers](AddTwoNumbers.java) - [LeetCode 2](https://leetcode.com/problems/add-two-numbers/)
   * *Medium*
   * LinkedList
-* [Leetcode 445](https://leetcode.com/problems/add-two-numbers-ii/): Add Two Numbers II
+* [Add Two Numbers II](AddTwoNumbersII.java) - [LeetCode 445](https://leetcode.com/problems/add-two-numbers-ii/)
   * *Medium*
-  * LinkedList
+  * LinkedList, Stack
 * [Leetcode 234](https://leetcode.com/problems/palindrome-linked-list/): Palindrome Linked List
   * Easy
   * LinkedList
+## String
+* [Reorder Data in Log Files](ReorderData.java) - [LeetCode 937](https://leetcode.com/problems/reorder-data-in-log-files/)
+  * Easy
+  * String
+* [Verifying an Alien Dictionary](VerifyingAlienDictionary.java) - [LeetCode 953](https://leetcode.com/problems/verifying-an-alien-dictionary/)
+  * Easy
+  * String
 * [Leetcode 344](https://leetcode.com/problems/reverse-string/): Reverse String
   * Easy
   * String
@@ -344,6 +355,7 @@
 * [Leetcode 405](https://leetcode.com/problems/convert-a-number-to-hexadecimal/): Convert a Number to Hexadecimal
   * Easy
   * Bit
+## DP
 * Laicode 86: Longest Ascending SubArray
   * Easy
   * DP
@@ -356,8 +368,8 @@
 * Laicode 89: Array Hopper II
   * *Medium*
   * DP
-* Laicode 97: Largest SubArray Sum
-  * *Medium*
+* [Maximum Subarray](MaximumSubarray) - [LeetCode 53](https://leetcode.com/problems/maximum-subarray/)
+  * Easy
   * DP, Array
 * Laicode 99: Dictionary Word I
   * *Medium*
@@ -437,6 +449,22 @@
 * [Valid Parentheses](ValidParentheses.java) - [LeetCode20](https://leetcode.com/problems/valid-parentheses/)
   * Easy
   * Stack
+* [Two Sum](TwoSum.java) - [LeetCode1](https://leetcode.com/problems/two-sum/)
+  * Easy
+  * HashTable
+* [Two Sum III - Data structure design](TwoSumIII.java) - [LeetCode170](https://leetcode.com/problems/two-sum-iii-data-structure-design/)
+  * Easy
+  * Design
+* [Three Sum](ThreeSum.java) - [LeetCode15](https://leetcode.com/problems/3sum/)
+  * *Medium*
+  * Array, TwoPointer
+* [Number of Islands](NumberofIslands.java) - [LeetCode200](https://leetcode.com/problems/number-of-islands/)
+  * *Medium*
+  * DFS 
+* [Number of Islands II](NumberofIslandsII.java) - [LeetCode305](https://leetcode.com/problems/number-of-islands-ii/)
+  * **Hard**
+  * [UnionFind](https://www.geeksforgeeks.org/union-find/#:~:text=A%20union-find%20algorithm%20is%20an%20algorithm%20that%20performs,Union%3A%20Join%20two%20subsets%20into%20a%20single%20subset.)
+
   
 
 
