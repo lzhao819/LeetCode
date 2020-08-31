@@ -12,7 +12,7 @@
 * Laicode 17: Closest In Sorted Array
   * *Medium*
   * BinarySearch
-* [Leetcode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/): Find First and Last Position of Element in Sorted Array
+* [Find First and Last Position of Element in Sorted Array](FirstandLast.java) - [Leetcode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
   * *Medium*
   * BinarySearch
 * [Leetcode 658](https://leetcode.com/problems/find-k-closest-elements/): Find K Closest Elements
@@ -182,7 +182,7 @@
 * Laicode 9: Merge Sort
   * *Medium*
   * Sort
-* [Leetcode 56](https://leetcode.com/problems/merge-intervals/): Merge Intervals
+* [Merge Intervals](MergeIntervals.java) - [Leetcode 56](https://leetcode.com/problems/merge-intervals/)
   * *Medium*
   * Sort
 * Laicode 10: Quick Sort
@@ -368,9 +368,12 @@
 * Laicode 89: Array Hopper II
   * *Medium*
   * DP
-* [Maximum Subarray](MaximumSubarray) - [LeetCode 53](https://leetcode.com/problems/maximum-subarray/)
+* [Maximum Subarray](MaximumSubarray.java) - [LeetCode 53](https://leetcode.com/problems/maximum-subarray/)
   * Easy
   * DP, Array
+* [Best Time to Buy and Sell Stock](BestTimetoBuyandSellStock.java) - [LeetCode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+  * Easy
+  * DP, Array 
 * Laicode 99: Dictionary Word I
   * *Medium*
   * DP, String
@@ -401,6 +404,16 @@
 * Laicode 143: Minimum Cuts For Palindromes
   * *Medium*
   * DP
+* [Palindrome Removal](PalindromeRemoval.java) - [LeetCode 1246](https://leetcode.com/problems/palindrome-removal/)
+  * **Hard**
+  * DP, Array
+* [Longest Increasing Subsequence](LongestIncreasingSubsequence.java) - [LeetCode 300](https://leetcode.com/problems/longest-increasing-subsequence/)
+  * *Medium*
+  * DP, BinarySearch
+## Random
+* [Random Pick with Weight](RandomPickwithWeight.java) - [LeetCode 528](https://leetcode.com/problems/random-pick-with-weight/)
+  * *Medium*
+  * Random, BinarySearch
 * Laicode 108: Perfect Shuffle
   * *Medium*
   * Probability

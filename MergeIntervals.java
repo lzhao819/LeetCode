@@ -1,4 +1,6 @@
 //56 Merge Intervals
+//Given a collection of intervals, merge all overlapping intervals.
+//Sorting takes O(nlogn) and merging the intervals takes O(n)
 class Solution {
     public int[][] merge(int[][] intervals) {
         ////Sort the intervals by their starting points.
