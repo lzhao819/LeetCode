@@ -404,6 +404,9 @@
 * Laicode 143: Minimum Cuts For Palindromes
   * *Medium*
   * DP
+  * [Longest Palindromic Substring](LongestPalindromicSubstring.java) - [LeetCode 5](https://leetcode.com/problems/longest-palindromic-substring/)
+  * *Medium*
+  * DP, String
 * [Palindrome Removal](PalindromeRemoval.java) - [LeetCode 1246](https://leetcode.com/problems/palindrome-removal/)
   * **Hard**
   * DP, Array
