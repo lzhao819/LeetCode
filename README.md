@@ -167,11 +167,15 @@
 * [Leetcode 389](https://leetcode.com/problems/find-the-difference/): Find The Difference
   * Easy
   * String
+## Recursion
 * [Leetcode 509](https://leetcode.com/problems/fibonacci-number/): Fibonacci Number
   * Easy
   * Recursion, DP
 * [Leetcode 50](https://leetcode.com/problems/powx-n/): Pow(x, n)
   * *Medium*
+  * Recursion
+* [Number of Ways to Reorder Array to Get Same BST](NumberofWaystoReorderArraytoGetSameBST.java) - [LeetCode 1569](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
+  * **Hard**
   * Recursion
 * Laicode 4: Selection Sort
   * Easy
