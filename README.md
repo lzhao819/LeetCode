@@ -472,6 +472,9 @@
 * [Two Sum](TwoSum.java) - [LeetCode1](https://leetcode.com/problems/two-sum/)
   * Easy
   * HashTable
+* [Subarray Sum Equals K](SubarraySumEqualsK.java) - [LeetCode560](https://leetcode.com/problems/subarray-sum-equals-k/)
+  * *Medium*
+  * HashTable
 * [Two Sum III - Data structure design](TwoSumIII.java) - [LeetCode170](https://leetcode.com/problems/two-sum-iii-data-structure-design/)
   * Easy
   * Design
@@ -484,6 +487,9 @@
 * [Number of Islands II](NumberofIslandsII.java) - [LeetCode305](https://leetcode.com/problems/number-of-islands-ii/)
   * **Hard**
   * [UnionFind](https://www.geeksforgeeks.org/union-find/#:~:text=A%20union-find%20algorithm%20is%20an%20algorithm%20that%20performs,Union%3A%20Join%20two%20subsets%20into%20a%20single%20subset.)
+* [Product of Array Except Self](ProductofArrayExceptSelf.java) - [LeetCode238](https://leetcode.com/problems/product-of-array-except-self/)
+  * *Medium*
+  * Array
 
   
 
