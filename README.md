@@ -417,6 +417,9 @@
 * [Longest Increasing Subsequence](LongestIncreasingSubsequence.java) - [LeetCode 300](https://leetcode.com/problems/longest-increasing-subsequence/)
   * *Medium*
   * DP, BinarySearch
+ * [Decode Ways](DecodeWays.java) - [LeetCode 91](https://leetcode.com/problems/decode-ways/)
+  * *Medium*
+  * DP
 ## Random
 * [Random Pick with Weight](RandomPickwithWeight.java) - [LeetCode 528](https://leetcode.com/problems/random-pick-with-weight/)
   * *Medium*
