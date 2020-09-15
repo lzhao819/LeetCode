@@ -1,15 +1,14 @@
-```md
-Public int find(int[] nums){
-	Int l = 0;
-	Int r = nums.length-1;
-	While(l<r){
-	Int mid = l+(r-l)/2;
-	If(nums[m]=m+1){
-		L = m+1;
-	}
-	if(nums[m]>m)
-		R=m;
-	}
-	}
-	Return r;
-    ```
+```
+int[] node = new int[nodes+1];
+int[] parent = new int[branches+1];
+for(){
+    node[i]++;
+    parent[i] = i-1;
+}
+for(int i = 0; i<node.length;i++){
+    if(node[i]==1 && node[i+1]==1 && parent[i]==parent[i+1]){
+        count++;
+    }  
+}
+return count; 
+    

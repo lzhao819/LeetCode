@@ -451,48 +451,53 @@
 * [Leetcode 295](https://leetcode.com/problems/find-median-from-data-stream/): Find Median from Data Stream
   * **Hard**
   * Heap
-* [Majority Number I](MajorityNumberI.java) - [LeetCode169](https://leetcode.com/problems/majority-element/)
+* [Majority Number I](MajorityNumberI.java) - [LeetCode 169](https://leetcode.com/problems/majority-element/)
   * Easy
   * Array
-* [Majority Number II](MajorityNumberII.java) - [LeetCode229](https://leetcode.com/problems/majority-element-ii/)
+* [Majority Number II](MajorityNumberII.java) - [LeetCode 229](https://leetcode.com/problems/majority-element-ii/)
   * *Medium*
   * Array, HashMap
-* [Majority Number III](MajorityNumberIII.java) - [LaiCode208](https://app.laicode.io/app/problem/208)
+* [Majority Number III](MajorityNumberIII.java) - [LaiCode 208](https://app.laicode.io/app/problem/208)
   * **Hard**
   * Array, HashMap
-* [Implement LRU Cache](LRUCache.java) - [LeetCode146](https://leetcode.com/problems/lru-cache/)
+* [Implement LRU Cache](LRUCache.java) - [LeetCode 146](https://leetcode.com/problems/lru-cache/)
+  * *Medium*s
+  * HashMap, LinkedList
+* [First Non-Repeating Character In Stream](FirstNon-RepeatingCharacter.java) - [LaiCode 288](https://app.laicode.io/app/problem/288)
   * *Medium*
   * HashMap, LinkedList
-* [First Non-Repeating Character In Stream](FirstNon-RepeatingCharacter.java) - [LaiCode288](https://app.laicode.io/app/problem/288)
-  * *Medium*
-  * HashMap, LinkedList
-* [Maximum Values Of Size K Sliding Windows](MaxOfKSlidingWindows.java) - [LeetCode239](https://leetcode.com/problems/sliding-window-maximum/)
+* [Maximum Values Of Size K Sliding Windows](MaxOfKSlidingWindows.java) - [LeetCode 239](https://leetcode.com/problems/sliding-window-maximum/)
   * **Hard**
   * Deque
-* [Valid Parentheses](ValidParentheses.java) - [LeetCode20](https://leetcode.com/problems/valid-parentheses/)
+* [Valid Parentheses](ValidParentheses.java) - [LeetCode 20](https://leetcode.com/problems/valid-parentheses/)
   * Easy
   * Stack
-* [Two Sum](TwoSum.java) - [LeetCode1](https://leetcode.com/problems/two-sum/)
+* [Two Sum](TwoSum.java) - [LeetCode 1](https://leetcode.com/problems/two-sum/)
   * Easy
   * HashTable
-* [Subarray Sum Equals K](SubarraySumEqualsK.java) - [LeetCode560](https://leetcode.com/problems/subarray-sum-equals-k/)
+* [Subarray Sum Equals K](SubarraySumEqualsK.java) - [LeetCode 560](https://leetcode.com/problems/subarray-sum-equals-k/)
   * *Medium*
   * HashTable
-* [Two Sum III - Data structure design](TwoSumIII.java) - [LeetCode170](https://leetcode.com/problems/two-sum-iii-data-structure-design/)
+* [Two Sum III - Data structure design](TwoSumIII.java) - [LeetCode 170](https://leetcode.com/problems/two-sum-iii-data-structure-design/)
   * Easy
   * Design
-* [Three Sum](ThreeSum.java) - [LeetCode15](https://leetcode.com/problems/3sum/)
+* [Three Sum](ThreeSum.java) - [LeetCode 15](https://leetcode.com/problems/3sum/)
   * *Medium*
   * Array, TwoPointer
-* [Number of Islands](NumberofIslands.java) - [LeetCode200](https://leetcode.com/problems/number-of-islands/)
+* [Number of Islands](NumberofIslands.java) - [LeetCode 200](https://leetcode.com/problems/number-of-islands/)
   * *Medium*
   * DFS 
-* [Number of Islands II](NumberofIslandsII.java) - [LeetCode305](https://leetcode.com/problems/number-of-islands-ii/)
+* [Number of Islands II](NumberofIslandsII.java) - [LeetCode 305](https://leetcode.com/problems/number-of-islands-ii/)
   * **Hard**
   * [UnionFind](https://www.geeksforgeeks.org/union-find/#:~:text=A%20union-find%20algorithm%20is%20an%20algorithm%20that%20performs,Union%3A%20Join%20two%20subsets%20into%20a%20single%20subset.)
-* [Product of Array Except Self](ProductofArrayExceptSelf.java) - [LeetCode238](https://leetcode.com/problems/product-of-array-except-self/)
+* [Product of Array Except Self](ProductofArrayExceptSelf.java) - [LeetCode 238](https://leetcode.com/problems/product-of-array-except-self/)
   * *Medium*
   * Array
+## OOD
+* [Design Search Autocomplete System](AutocompleteSystem.java) - [LeetCode 642](https://leetcode.com/problems/design-search-autocomplete-system/)
+  * **Hard**
+  * Trie
+
 
   
 
