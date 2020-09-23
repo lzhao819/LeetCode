@@ -1,8 +1,9 @@
 # LeetCode
 | Solution | Question Number | Difficulties | Tags |
 | :------- | :-------------- | :----------- | :--- |
-| [Increasing Triplet](src/increasingTriplet/Solution.java) | [Leetcode 334](https://leetcode.com/problems/increasing-triplet-subsequence/) | *Medium* | Array |
-| [Sort Characters By Frequency](src/sortByFrequency/Solution.java) | [Leetcode 451](https://leetcode.com/problems/sort-characters-by-frequency/) | *Medium* | Sort |
+| [Increasing Triplet](src/increasingTriplet/Solution.java) | [LeetCode 334](https://leetcode.com/problems/increasing-triplet-subsequence/) | *Medium* | Array |
+| [Sort Characters By Frequency](src/sortByFrequency/Solution.java) | [LeetCode 451](https://leetcode.com/problems/sort-characters-by-frequency/) | *Medium* | Sort |
+| [Minimum Size Subarray Sum](src/minimumSizeSubarraySum/Solution.java) | [LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum/) | *Medium* | SlidingWindow |
 
 ## BinarySearch
 * [Classic Binary Search](ClassicBinarySearch.java) - [Leetcode 704](https://leetcode.com/problems/binary-search/)
