@@ -8,6 +8,9 @@
 | [Longest Arithmetic Subsequence](src/longestArithmeticSubsequence/Solution.java) | [LeetCode 1027](https://leetcode.com/problems/longest-arithmetic-subsequence/) | *Medium* | DP |
 | [Broken Calculator](src/brokenCalculator/Solution.java) | [LeetCode 991](https://leetcode.com/problems/broken-calculator/) | *Medium* | Math |
 | [Distinct Subsequences](src/distinctSubsequences/Solution.java) | [LeetCode 115](https://leetcode.com/problems/distinct-subsequences/) | **Hard** | DP |
+| [Beautiful Arrangement](src/beautifulArrangement/Solution.java) | [LeetCode 526](https://leetcode.com/problems/beautiful-arrangement/) | *Medium* | Backtracking |
+| [Convert Binary Number in a Linked List to Integer](src/binaryLinkedListtoInteger/Solution.java) | [LeetCode 1290](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | Backtracking |
+| [Insert Interval] | [LeetCode 57](https://leetcode.com/problems/insert-interval/) | *Medium* | Array |
 
 ## BinarySearch
 * [Classic Binary Search](ClassicBinarySearch.java) - [Leetcode 704](https://leetcode.com/problems/binary-search/)
