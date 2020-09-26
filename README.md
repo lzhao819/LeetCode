@@ -4,6 +4,10 @@
 | [Increasing Triplet](src/increasingTriplet/Solution.java) | [LeetCode 334](https://leetcode.com/problems/increasing-triplet-subsequence/) | *Medium* | Array |
 | [Sort Characters By Frequency](src/sortByFrequency/Solution.java) | [LeetCode 451](https://leetcode.com/problems/sort-characters-by-frequency/) | *Medium* | Sort |
 | [Minimum Size Subarray Sum](src/minimumSizeSubarraySum/Solution.java) | [LeetCode 209](https://leetcode.com/problems/minimum-size-subarray-sum/) | *Medium* | SlidingWindow |
+| [Rotate Image](src/rotateImage/Solution.java) | [LeetCode 48](https://leetcode.com/problems/rotate-image/) | *Medium* | Array |
+| [Longest Arithmetic Subsequence](src/longestArithmeticSubsequence/Solution.java) | [LeetCode 1027](https://leetcode.com/problems/longest-arithmetic-subsequence/) | *Medium* | DP |
+| [Broken Calculator](src/brokenCalculator/Solution.java) | [LeetCode 991](https://leetcode.com/problems/broken-calculator/) | *Medium* | Math |
+| [Distinct Subsequences](src/distinctSubsequences/Solution.java) | [LeetCode 115](https://leetcode.com/problems/distinct-subsequences/) | **Hard** | DP |
 
 ## BinarySearch
 * [Classic Binary Search](ClassicBinarySearch.java) - [Leetcode 704](https://leetcode.com/problems/binary-search/)
