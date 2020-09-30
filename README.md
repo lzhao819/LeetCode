@@ -1,10 +1,6 @@
-	### 剑指Offer 题库列表 --> [点击这里](剑指offer.md)
-
-
+### 剑指Offer 题库列表 --> [点击这里](剑指offer.md)
 
 # LeetCode Problem List
-
-
 
 | Solution | Question Number | Difficulties | Tags |
 | :------- | :-------------- | :----------- | :--- |
