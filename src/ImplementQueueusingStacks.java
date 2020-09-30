@@ -2,12 +2,15 @@
 //  Enqueue O(1)
 //  Dequeue worse case O(n), Amortized O(1)
 
-class MyQueue {
+import java.util.Deque;
+import java.util.LinkedList;
+
+class ImplementQueueusingStacks {
     public Deque<Integer> in;
     public Deque<Integer> out;
     
     /** Initialize your data structure here. */
-    public MyQueue() {
+    public ImplementQueueusingStacks() {
         in = new LinkedList<>();
         out = new LinkedList<>();
     }

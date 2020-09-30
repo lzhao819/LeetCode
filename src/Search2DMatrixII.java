@@ -1,10 +1,12 @@
-// 240. Search a 2D Matrix II
-// Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
+/**
+ * LeetCode240
+ * Integers in each row are sorted in ascending from left to right.
+ * Integers in each column are sorted in ascending from top to bottom.
 
-// Integers in each row are sorted in ascending from left to right.
-// Integers in each column are sorted in ascending from top to bottom.
-//Time O(m+n)
-class Solution {
+   Time O(m+n)
+   Space O(1)
+ */
+class Search2DMatrixII {
     public boolean searchMatrix(int[][] matrix, int target) {
         if(matrix==null || matrix.length < 1|| matrix[0]==null||matrix[0].length < 1) return false;
         int row = 0,

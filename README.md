@@ -1,4 +1,11 @@
-# LeetCode
+	### 剑指Offer 题库列表 --> [点击这里](剑指offer.md)
+
+
+
+# LeetCode Problem List
+
+
+
 | Solution | Question Number | Difficulties | Tags |
 | :------- | :-------------- | :----------- | :--- |
 | [Increasing Triplet](src/increasingTriplet/Solution.java) | [LeetCode 334](https://leetcode.com/problems/increasing-triplet-subsequence/) | *Medium* | Array |
@@ -11,16 +18,20 @@
 | [Beautiful Arrangement](src/beautifulArrangement/Solution.java) | [LeetCode 526](https://leetcode.com/problems/beautiful-arrangement/) | *Medium* | Backtracking |
 | [Convert Binary Number in a Linked List to Integer](src/binaryLinkedListtoInteger/Solution.java) | [LeetCode 1290](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Easy | Backtracking |
 | [Insert Interval](src/insertInterval/Solution.java)| [LeetCode 57](https://leetcode.com/problems/insert-interval/) | *Medium* | Array |
+| [Search a 2D Matrix II](src/Search2DMatrixII.java) | [LeetCode 240](https://leetcode.com/problems/search-a-2d-matrix-ii/) | *Medium* | Array |
+|  |  |  |  |
 
 ## BinarySearch
+
+| Solution | Question Number | Difficulties | Tags |
+| :------- | :-------------- | :----------- | :--- |
+|          |                 |              |      |
+
 * [Classic Binary Search](ClassicBinarySearch.java) - [Leetcode 704](https://leetcode.com/problems/binary-search/)
   * Easy
   * BinarySearch
 * [Search a 2D Matrix](Search2DMatrix.java) - [Leetcode 74](https://leetcode.com/problems/search-a-2d-matrix/)
   * Easy
-  * BinarySearch
-* [Search a 2D MatrixII](Search2DMatrixII.java) - [Leetcode 240](https://leetcode.com/problems/search-a-2d-matrix-ii/)
-  * *Medium*
   * BinarySearch
 * Laicode 17: Closest In Sorted Array
   * *Medium*
@@ -49,7 +60,14 @@
 * [Time Based Key-Value Store](TimeBasedKey-ValueStore.java) - [LeetCode981](https://leetcode.com/problems/time-based-key-value-store/)
   * *Medium*
   * BinarySearch
+## DFS
+
+| Solution                                                     | Question Number                                              | Difficulties | Tags      |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------- | :-------- |
+| [Construct Binary Tree from Preorder and Inorder Traversal](src/ReconstructBinaryTreeP_I.java) | [LeetCode105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | *Medium*     | Tree, DFS |
+
 ## Tree
+
 * [Leetcode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/): Binary Tree Inorder Traversal 
   * *Medium*
   * Tree
@@ -86,9 +104,6 @@
 * [Flatten Binary Tree to Linked List](FlattenBinaryTree.java) - [LeetCode144](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
   * *Medium*
   * Tree, DFS
-* [Construct Binary Tree from Preorder and Inorder Traversal](ReconstructBinaryTreeP&I.java) - [LeetCode105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-  * *Medium*
-  * Tree
 * [Construct Binary Tree from Levelorder and Inorder Traversal](ReconstructBinaryTreeL&I.java) - [LaiCode215](https://app.laicode.io/app/problem/215)
   * **Hard**
   * Tree
@@ -181,9 +196,16 @@
   * Easy
   * String
 ## Recursion
-* [Leetcode 509](https://leetcode.com/problems/fibonacci-number/): Fibonacci Number
-  * Easy
-  * Recursion, DP
+
+| Solution                                     | Question Number                                              | Difficulties | Tags          |
+| :------------------------------------------- | :----------------------------------------------------------- | :----------- | :------------ |
+| [Fibonacci Number](src/FibonacciNumber.java) | [Leetcode 509](https://leetcode.com/problems/fibonacci-number/) | Easy         | Recursion, DP |
+|                                              |                                                              |              |               |
+|                                              |                                                              |              |               |
+|                                              |                                                              |              |               |
+|                                              |                                                              |              |               |
+|                                              |                                                              |              |               |
+
 * [Leetcode 50](https://leetcode.com/problems/powx-n/): Pow(x, n)
   * *Medium*
   * Recursion
@@ -211,30 +233,6 @@
 * [Leetcode 75](https://leetcode.com/problems/sort-colors/): Sort Colors
   * *Medium*
   * Sort
-* [Leetcode 155](https://leetcode.com/problems/min-stack/): Min Stack
-  * Easy
-  * Stack
-* [Leetcode 232](https://leetcode.com/problems/implement-queue-using-stacks/): Implement Queue using Stacks
-  * Easy
-  * Stack
-* [Leetcode 150](https://leetcode.com/problems/evaluate-reverse-polish-notation/): Evaluate Reverse Polish Notation
-  * *Medium*
-  * Stack
-* [Leetcode 84](https://leetcode.com/problems/largest-rectangle-in-histogram/): Largest Rectangle in Histogram
-  * **Hard**
-  * Stack
-* Laicode 613: Design Circular Deque
-  * *Medium*
-  * Stack
-* [Leetcode 225](https://leetcode.com/problems/implement-stack-using-queues/): Implement Stack using Queues
-  * Easy
-  * Queue
-* [Leetcode 641](https://leetcode.com/problems/design-circular-deque/): Design Circular Deque
-  * *Medium*
-  * Queue
-* Laicode 614: Design Circular Queue
-  * *Medium*
-  * Queue
 ## LinkedList
 * [Leetcode 206](https://leetcode.com/problems/reverse-linked-list/): Reverse Linked List
   * Easy
@@ -281,7 +279,41 @@
 * [Leetcode 234](https://leetcode.com/problems/palindrome-linked-list/): Palindrome Linked List
   * Easy
   * LinkedList
+## Stack Queue
+
+| Solution                                                     | Question Number                                              | Difficulties | Tags  |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------- | :---- |
+|                                                              |                                                              |              |       |
+| [Implement Queue using Stacks](src/ImplementQueueusingStacks.java) | [Leetcode 232](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy         | Stack |
+|                                                              |                                                              |              |       |
+|                                                              |                                                              |              |       |
+|                                                              |                                                              |              |       |
+|                                                              |                                                              |              |       |
+
+* [Leetcode 155](https://leetcode.com/problems/min-stack/): Min Stack
+  * Easy
+  * Stack
+* [Leetcode 150](https://leetcode.com/problems/evaluate-reverse-polish-notation/): Evaluate Reverse Polish Notation
+  * *Medium*
+  * Stack
+* [Leetcode 84](https://leetcode.com/problems/largest-rectangle-in-histogram/): Largest Rectangle in Histogram
+  * **Hard**
+  * Stack
+* Laicode 613: Design Circular Deque
+  * *Medium*
+  * Stack
+* [Leetcode 225](https://leetcode.com/problems/implement-stack-using-queues/): Implement Stack using Queues
+  * Easy
+  * Queue
+* [Leetcode 641](https://leetcode.com/problems/design-circular-deque/): Design Circular Deque
+  * *Medium*
+  * Queue
+* Laicode 614: Design Circular Queue
+  * *Medium*
+  * Queue
+
 ## String
+
 * [Reorder Data in Log Files](ReorderData.java) - [LeetCode 937](https://leetcode.com/problems/reorder-data-in-log-files/)
   * Easy
   * String
@@ -512,10 +544,10 @@
   * Trie
 
 
-  
 
 
-    
+
+​    
 
 
 
