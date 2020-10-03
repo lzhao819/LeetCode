@@ -1,4 +1,4 @@
-package brokenCalculator;
+package src.brokenCalculator;
 //Leetcode 991
 public class Solution {
     public int brokenCalculator(int X, int Y) {

@@ -1,4 +1,4 @@
-package beautifulArrangement;
+package src.beautifularrangement;
 //https://leetcode.com/problems/beautiful-arrangement/
 public class Solution {
      /*We try to create all the permutations of numbers from 1 to N.
