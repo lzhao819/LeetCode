@@ -1,8 +1,8 @@
-package src;
+
 import java.util.HashSet;
 import java.util.Set;
 
-public class findDuplicateNumber {
+public class FindDuplicateNumber {
     //Solution1
     //Time O(n)
     //Space O(1)

@@ -21,7 +21,7 @@
 
 | Solution | Question Number | Difficulties | Tags |
 | :------- | :-------------- | :----------- | :--- |
-|          |                 |              |      |
+| [Find Minimum in Rotated Sorted Array II](src/FindMinInRotatedSortedArrayII.java) | [LeetCode 154](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | **Hard** | BinarySearch |
 
 * [Classic Binary Search](ClassicBinarySearch.java) - [Leetcode 704](https://leetcode.com/problems/binary-search/)
   * Easy
@@ -73,7 +73,7 @@
 * [Leetcode 100](https://leetcode.com/problems/same-tree/): Same Tree
   * Easy
   * Tree
-* [Leetcode 101](https://leetcode.com/problems/symmetric-tree/): Symmetric Tree
+* [Leetcode 101](https://leetcode.com/problems/symmetric-tree/): Symmetric Tree 
   * Easy
   * Tree
 * [LeetCode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/): Maximum Depth of Binary Tree
@@ -130,6 +130,12 @@
 * [Leetcode 938](https://leetcode.com/problems/range-sum-of-bst/): Range Sum of BST
   * Easy
   * Tree
+  
+ ## BFS
+ | Solution                                     | Question Number                                              | Difficulties | Tags          |
+ | :------------------------------------------- | :----------------------------------------------------------- | :----------- | :------------ |
+ |[Even Odd Tree](src/EvenOddTree.java)|[LeetCode 5532](https://leetcode-cn.com/problems/even-odd-tree/)| *Medium* | BFS |
+
 * [Leetcode 102](https://leetcode.com/problems/binary-tree-level-order-traversal/) [107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/): Binary Tree Level Order Traversal 
   * *Medium*
   * BFS
@@ -196,15 +202,8 @@
 | Solution                                     | Question Number                                              | Difficulties | Tags          |
 | :------------------------------------------- | :----------------------------------------------------------- | :----------- | :------------ |
 | [Fibonacci Number](src/FibonacciNumber.java) | [Leetcode 509](https://leetcode.com/problems/fibonacci-number/) | Easy         | Recursion, DP |
-|                                              |                                                              |              |               |
-|                                              |                                                              |              |               |
-|                                              |                                                              |              |               |
-|                                              |                                                              |              |               |
-|                                              |                                                              |              |               |
+| [Pow(x, n)](src/Pow.java)|[Leetcode 50](https://leetcode.com/problems/powx-n/)| *Medium* | Recursion |
 
-* [Leetcode 50](https://leetcode.com/problems/powx-n/): Pow(x, n)
-  * *Medium*
-  * Recursion
 * [Number of Ways to Reorder Array to Get Same BST](NumberofWaystoReorderArraytoGetSameBST.java) - [LeetCode 1569](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
   * **Hard**
   * Recursion
@@ -401,12 +400,12 @@
   * Easy
   * Bit
 ## DP
+| Solution | Question Number | Difficulties | Tags |
+| :------- | :-------------- | :----------- | :--- |
+| [Integer Break](src/integerBreak.java) | [LeetCode 343](https://leetcode.com/problems/integer-break/) | *Medium* | DP |
 RegularExpressionMatching.java
 * Laicode 86: Longest Ascending SubArray
   * Easy
-  * DP
-* Laicode 87: Max Product Of Cutting Rope
-  * *Medium*
   * DP
 * Laicode 88: Array Hopper I
   * *Medium*
@@ -539,8 +538,10 @@ RegularExpressionMatching.java
 * [Design Search Autocomplete System](AutocompleteSystem.java) - [LeetCode 642](https://leetcode.com/problems/design-search-autocomplete-system/)
   * **Hard**
   * Trie
-
-
+## Array
+| Solution | Question Number | Difficulties | Tags |
+| :------- | :-------------- | :----------- | :--- |
+| [Special Array With X Elements Greater Than Or Equal X] | [LeetCode 5531](https://leetcode-cn.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)| Easy | Array |
 
 
 
