@@ -4,7 +4,7 @@
 // Your algorithm's runtime complexity must be in the order of O(log n).
 
 // If the target is not found in the array, return [-1, -1].
-class Solution {
+class FirstandLast {
     public int[] searchRange(int[] nums, int target) {
         if(nums==null || nums.length==0) return new int[]{-1,-1};
         int[] result = new int[2];

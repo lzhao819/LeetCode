@@ -9,7 +9,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(0);
         ListNode cur = dummy;
@@ -24,7 +24,7 @@ class Solution {
             }
             cur = cur.next;
         }
-        
+
         if(l1!=null){
             cur.next = l1;   
         }else if(l2!=null){
