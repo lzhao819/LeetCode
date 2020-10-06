@@ -45,25 +45,25 @@
 
 ## LinkedList
 
-| Solution                                               | Question Number                                              | Difficulties | Note              |
-| :----------------------------------------------------- | :----------------------------------------------------------- | :----------- | :---------------- |
-| [Reverse Linked List](src/ReverseLinkedList.java)      | [Leetcode 206](https://leetcode.com/problems/reverse-linked-list/) | Easy         |                   |
-| Reverse Linked List II                                 | [Leetcode 92](https://leetcode.com/problems/reverse-linked-list-ii/) | *Medium*     |                   |
-| Middle of the Linked List                              | [Leetcode 876](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy         |                   |
-| Linked List Cycle                                      | [Leetcode 141](https://leetcode.com/problems/linked-list-cycle/) | Easy         |                   |
-| Linked List Cycle II                                   | [Leetcode 142](https://leetcode.com/problems/linked-list-cycle-ii/) | *Medium*     |                   |
-| Insert In Sorted Linked List                           | Laicode 39                                                   | Easy         |                   |
-| Insertion Sort List                                    | [Leetcode 147](https://leetcode.com/problems/insertion-sort-list/) | *Medium*     |                   |
-| [Merge Two Sorted Lists](src/MergeTwoSortedLists.java) | [Leetcode 21](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy         |                   |
-| Reorder List                                           | [Leetcode 143](https://leetcode.com/problems/reorder-list/)  | *Medium*     |                   |
-| Partition List                                         | [Leetcode 86](https://leetcode.com/problems/partition-list/) | *Medium*     |                   |
-| Sort List (Merge Sort)                                 | [Leetcode 148](https://leetcode.com/problems/sort-list/)     | *Medium*     |                   |
-| Remove Linked List Elements                            | [Leetcode 203](https://leetcode.com/problems/remove-linked-list-elements/submissions/) | Easy         |                   |
-| [Add Two Numbers](AddTwoNumbers.java)                  | [LeetCode 2](https://leetcode.com/problems/add-two-numbers/) | *Medium*     |                   |
-| [Add Two Numbers II](AddTwoNumbersII.java)             | [LeetCode 445](https://leetcode.com/problems/add-two-numbers-ii/) | *Medium*     | LinkedList, Stack |
-| Palindrome Linked List                                 | [Leetcode 234](https://leetcode.com/problems/palindrome-linked-list/) | Easy         |                   |
-|                                                        |                                                              |              |                   |
-|                                                        |                                                              |              |                   |
+| Solution                                                     | Question Number                                              | Difficulties | Note              |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------- | :---------------- |
+| [Reverse Linked List](src/ReverseLinkedList.java)            | [Leetcode 206](https://leetcode.com/problems/reverse-linked-list/) | Easy         |                   |
+| Reverse Linked List II                                       | [Leetcode 92](https://leetcode.com/problems/reverse-linked-list-ii/) | *Medium*     |                   |
+| Middle of the Linked List                                    | [Leetcode 876](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy         |                   |
+| Linked List Cycle                                            | [Leetcode 141](https://leetcode.com/problems/linked-list-cycle/) | Easy         |                   |
+| Linked List Cycle II                                         | [Leetcode 142](https://leetcode.com/problems/linked-list-cycle-ii/) | *Medium*     |                   |
+| Insert In Sorted Linked List                                 | Laicode 39                                                   | Easy         |                   |
+| Insertion Sort List                                          | [Leetcode 147](https://leetcode.com/problems/insertion-sort-list/) | *Medium*     |                   |
+| [Merge Two Sorted Lists](src/MergeTwoSortedLists.java)       | [Leetcode 21](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy         |                   |
+| Reorder List                                                 | [Leetcode 143](https://leetcode.com/problems/reorder-list/)  | *Medium*     |                   |
+| Partition List                                               | [Leetcode 86](https://leetcode.com/problems/partition-list/) | *Medium*     |                   |
+| Sort List (Merge Sort)                                       | [Leetcode 148](https://leetcode.com/problems/sort-list/)     | *Medium*     |                   |
+| Remove Linked List Elements                                  | [Leetcode 203](https://leetcode.com/problems/remove-linked-list-elements/submissions/) | Easy         |                   |
+| [Add Two Numbers](AddTwoNumbers.java)                        | [LeetCode 2](https://leetcode.com/problems/add-two-numbers/) | *Medium*     |                   |
+| [Add Two Numbers II](AddTwoNumbersII.java)                   | [LeetCode 445](https://leetcode.com/problems/add-two-numbers-ii/) | *Medium*     | LinkedList, Stack |
+| Palindrome Linked List                                       | [Leetcode 234](https://leetcode.com/problems/palindrome-linked-list/) | Easy         |                   |
+| [Copy List with Random Pointer](src/CopyListwithRandomPointer.java) | [LeetCode 138](https://leetcode.com/problems/copy-list-with-random-pointer/) | *Medium*     | LinkedList        |
+|                                                              |                                                              |              |                   |
 
 ## Stack&Queue
 
@@ -77,41 +77,43 @@
 | Implement Stack using Queues                                 | [Leetcode 225](https://leetcode.com/problems/implement-stack-using-queues/) | Easy         |       |
 | Design Circular Deque                                        | [Leetcode 641](https://leetcode.com/problems/design-circular-deque/) | *Medium*     |       |
 | Design Circular Queue                                        | Laicode 614                                                  | *Medium*     |       |
+| [Validate Stack Sequences](src/ValidateStackSequences.java)  | [LeetCode 946](https://leetcode.com/problems/validate-stack-sequences/) | *Medium*     |       |
 
 ## Tree&BST
 
-| Solution                                                     | Question Number                                              | Difficulties | Tags |
-| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------- | :--- |
-| [Invert Binary Tree](src/InvertBinaryTree.java)              | [LeetCode 226](https://leetcode.com/problems/invert-binary-tree/) | Easy         |      |
-| [Symmetric Tree](src/SymmetricTree.java)                     | [Leetcode 101](https://leetcode.com/problems/symmetric-tree/) | Easy         |      |
-| Binary Tree Inorder Traversal                                | [Leetcode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | *Medium*     |      |
-| Validate Binary Search Tree                                  | [Leetcode 98](https://leetcode.com/problems/validate-binary-search-tree/) | *Medium*     |      |
-| Same Tree                                                    | [Leetcode 100](https://leetcode.com/problems/same-tree/)     | Easy         |      |
-| Maximum Depth of Binary Tree                                 | [LeetCode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy         |      |
-| [Balanced Binary Tree](BalancedTree.java)                    | [LeetCode110](https://leetcode.com/problems/balanced-binary-tree/) | Easy         |      |
-| [Maximum Path Sum Binary Tree I](MaximumPathSumBinaryTreeI.java) | [LaiCode138](https://app.laicode.io/app/problem/138)         | *Medium*     |      |
-| [Maximum Path Sum Binary Tree II](MaximumPathSumBinaryTreeII.java) | [LeetCode124](https://leetcode.com/problems/binary-tree-maximum-path-sum) | **Hard**     |      |
-| [Maximum Path Sum Binary Tree III](MaximumPathSumBinaryTreeIII.java) | [LaiCode140](https://app.laicode.io/app/problem/140)         | *Medium*     |      |
-| [Max Path Sum Leaf To Root](MaxPathSumLeafToRoot.java)       | [LaiCode639](https://app.laicode.io/app/problem/639)         | *Medium*     |      |
-| [Binary Tree Path Sum To Target III](BinaryTreePathSumToTargetIII.java) | [LaiCode141](https://app.laicode.io/app/problem/141)         | *Medium*     |      |
-| [Flatten Binary Tree to Linked List](FlattenBinaryTree.java) | [LeetCode144](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | *Medium*     |      |
-| [Construct Binary Tree from Levelorder and Inorder Traversal](ReconstructBinaryTreeL&I.java) | [LaiCode215](https://app.laicode.io/app/problem/215)         | **Hard**     |      |
-| [Construct Binary Search Tree from Postorder](ReconstructBSTPost.java) | [LaiCode211](https://app.laicode.io/app/problem/211)         | *Medium*     |      |
-| [Construct Binary Search Tree from Preorder](ReconstructBSTPre.java) | [LeetCode1008](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | *Medium*     |      |
-| Binary Tree Preorder Traversal                               | [Leetcode 144](https://leetcode.com/problems/binary-tree-preorder-traversal/) | *Medium*     |      |
-| Binary Tree Postorder Traversal                              | [Leetcode 145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | *Medium*     |      |
-| Delete Node in a BST                                         | [Leetcode 450](https://leetcode.com/problems/delete-node-in-a-bst/) | *Medium*     |      |
-| Insert into a Binary Search Tree                             | [Leetcode 701](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | *Medium*     |      |
-| Range Sum of BST                                             | [Leetcode 938](https://leetcode.com/problems/range-sum-of-bst/) | Easy         |      |
-|                                                              |                                                              |              |      |
-|                                                              |                                                              |              |      |
-|                                                              |                                                              |              |      |
+| Solution                                                     | Question Number                                              | Difficulties | Tags      |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------- | :-------- |
+| [Invert Binary Tree](src/InvertBinaryTree.java)              | [LeetCode 226](https://leetcode.com/problems/invert-binary-tree/) | Easy         |           |
+| [Symmetric Tree](src/SymmetricTree.java)                     | [Leetcode 101](https://leetcode.com/problems/symmetric-tree/) | Easy         |           |
+| Binary Tree Inorder Traversal                                | [Leetcode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | *Medium*     |           |
+| Validate Binary Search Tree                                  | [Leetcode 98](https://leetcode.com/problems/validate-binary-search-tree/) | *Medium*     |           |
+| Same Tree                                                    | [Leetcode 100](https://leetcode.com/problems/same-tree/)     | Easy         |           |
+| Maximum Depth of Binary Tree                                 | [LeetCode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy         |           |
+| [Balanced Binary Tree](BalancedTree.java)                    | [LeetCode110](https://leetcode.com/problems/balanced-binary-tree/) | Easy         |           |
+| [Maximum Path Sum Binary Tree I](MaximumPathSumBinaryTreeI.java) | [LaiCode138](https://app.laicode.io/app/problem/138)         | *Medium*     |           |
+| [Maximum Path Sum Binary Tree II](MaximumPathSumBinaryTreeII.java) | [LeetCode124](https://leetcode.com/problems/binary-tree-maximum-path-sum) | **Hard**     |           |
+| [Maximum Path Sum Binary Tree III](MaximumPathSumBinaryTreeIII.java) | [LaiCode140](https://app.laicode.io/app/problem/140)         | *Medium*     |           |
+| [Max Path Sum Leaf To Root](MaxPathSumLeafToRoot.java)       | [LaiCode639](https://app.laicode.io/app/problem/639)         | *Medium*     |           |
+| [Binary Tree Path Sum To Target III](BinaryTreePathSumToTargetIII.java) | [LaiCode141](https://app.laicode.io/app/problem/141)         | *Medium*     |           |
+| [Path Sum II](src/PathSumII.java)                            | [LeetCode 113](https://leetcode.com/problems/path-sum-ii/)   | *Medium*     | Tree, DFS |
+| [Flatten Binary Tree to Linked List](FlattenBinaryTree.java) | [LeetCode144](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | *Medium*     |           |
+| [Construct Binary Tree from Levelorder and Inorder Traversal](ReconstructBinaryTreeL&I.java) | [LaiCode215](https://app.laicode.io/app/problem/215)         | **Hard**     |           |
+| [Construct Binary Search Tree from Postorder](ReconstructBSTPost.java) | [LaiCode211](https://app.laicode.io/app/problem/211)         | *Medium*     |           |
+| [Construct Binary Search Tree from Preorder](ReconstructBSTPre.java) | [LeetCode1008](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | *Medium*     |           |
+| Binary Tree Preorder Traversal                               | [Leetcode 144](https://leetcode.com/problems/binary-tree-preorder-traversal/) | *Medium*     |           |
+| Binary Tree Postorder Traversal                              | [Leetcode 145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | *Medium*     |           |
+| Delete Node in a BST                                         | [Leetcode 450](https://leetcode.com/problems/delete-node-in-a-bst/) | *Medium*     |           |
+| Insert into a Binary Search Tree                             | [Leetcode 701](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | *Medium*     |           |
+| Range Sum of BST                                             | [Leetcode 938](https://leetcode.com/problems/range-sum-of-bst/) | Easy         |           |
+| [Verify Postorder](src/VerifyPostorder.java)                 | [剑指33](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) | *Medium*     |           |
+|                                                              |                                                              |              |           |
+|                                                              |                                                              |              |           |
 
  ## BFS
 | Solution                                     | Question Number                                              | Difficulties | Tags          |
 | :------------------------------------------- | :----------------------------------------------------------- | :----------- | :------------ |
 |[Even Odd Tree](src/EvenOddTree.java)|[LeetCode 5532](https://leetcode-cn.com/problems/even-odd-tree/)| *Medium* | BFS |
-|Binary Tree Level Order Traversal|[Leetcode 102](https://leetcode.com/problems/binary-tree-level-order-traversal/) [107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| *Medium* |  |
+| [Binary Tree Level Order Traversal I II]((src/BinaryTreeLevelOrderTraversal.java)) | [Leetcode 102](https://leetcode.com/problems/binary-tree-level-order-traversal/) [107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | *Medium*     |  |
 |Is Graph Bipartite?|[Leetcode 785](https://leetcode.com/problems/is-graph-bipartite/)| *Medium* |  |
 |Check Completeness of a Binary Tree|[Leetcode 958](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)| *Medium* |  |
 |Kth Smallest Element in a Sorted Matrix|[Leetcode 378](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)| *Medium* |  |
@@ -130,7 +132,7 @@
 | All Valid Permutations Of Parentheses II                     | Laicode 179                                                  | **Hard**     |           |
 | Combination Sum                                              | [Leetcode 39](https://leetcode.com/problems/combination-sum/) | *Medium*     |           |
 | Permutations                                                 | [Leetcode 46](https://leetcode.com/problems/permutations/)   | *Medium*     |           |
-|                                                              |                                                              |              |           |
+| [Convert Binary Search Tree to Sorted Doubly Linked List](ConvertBinarySearchTreetoSortedDoublyLinkedList.java) | [LeetCode 426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | *Medium*     | DFS       |
 
  ## HashTable
 
