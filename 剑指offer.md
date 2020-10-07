@@ -38,5 +38,6 @@
 | [Path Sum II](src/PathSumII.java)                            | [LeetCode 113](https://leetcode.com/problems/path-sum-ii/)   | *Medium*     | Tree,DFS       |                                                              |
 | [Copy List with Random Pointer](src/CopyListwithRandomPointer.java) | [LeetCode 138](https://leetcode.com/problems/copy-list-with-random-pointer/) | *Medium*     | LinkedList     |                                                              |
 | [Convert Binary Search Tree to Sorted Doubly Linked List](ConvertBinarySearchTreetoSortedDoublyLinkedList.java) | [LeetCode 426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | *Medium*     | DFS            |                                                              |
-|                                                              |                                                              |              |                |                                                              |
+| [Serialize and Deserialize Binary Tree](src/SerializeandDeserializeBinaryTree.java) | [LeetCode 297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | **Hard** | Tree |                                                              |
+| [String Permutation](src/StringPermutation.java) | [N/A](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/) | *Medium* | DFS | LeetCode 47 int[] permutation |
 

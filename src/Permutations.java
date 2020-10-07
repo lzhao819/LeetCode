@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+import java.util.List;
+
 //recommanded: SWAP method!!
-class Solution {
+class Permutations {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         if(nums.length==0) return result;
@@ -40,7 +43,7 @@ class Solution {
 
 
 //NOT recommanded: maintain the order of all permutations
-class Solution {
+class PermutationsSolution2 {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
         List<Integer> sub = new ArrayList<>();

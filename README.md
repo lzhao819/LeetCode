@@ -106,7 +106,7 @@
 | Insert into a Binary Search Tree                             | [Leetcode 701](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | *Medium*     |           |
 | Range Sum of BST                                             | [Leetcode 938](https://leetcode.com/problems/range-sum-of-bst/) | Easy         |           |
 | [Verify Postorder](src/VerifyPostorder.java)                 | [剑指33](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) | *Medium*     |           |
-|                                                              |                                                              |              |           |
+| [Serialize and Deserialize Binary Tree](src/SerializeandDeserializeBinaryTree.java) | [LeetCode 297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | **Hard**     | Tree      |
 |                                                              |                                                              |              |           |
 
  ## BFS
@@ -131,7 +131,8 @@
 | Generate Parentheses                                         | [Leetcode 22](https://leetcode.com/problems/generate-parentheses/) | *Medium*     |           |
 | All Valid Permutations Of Parentheses II                     | Laicode 179                                                  | **Hard**     |           |
 | Combination Sum                                              | [Leetcode 39](https://leetcode.com/problems/combination-sum/) | *Medium*     |           |
-| Permutations                                                 | [Leetcode 46](https://leetcode.com/problems/permutations/)   | *Medium*     |           |
+| [Permutations](src/Permutations.java)                        | [Leetcode 46](https://leetcode.com/problems/permutations/)   | *Medium*     |           |
+| [Permutations II](src/PermutationsII.java)                   | [Leetcode 47](https://leetcode.com/problems/permutations-ii/) | *Medium*     |           |
 | [Convert Binary Search Tree to Sorted Doubly Linked List](ConvertBinarySearchTreetoSortedDoublyLinkedList.java) | [LeetCode 426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | *Medium*     | DFS       |
 
  ## HashTable
