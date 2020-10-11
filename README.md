@@ -217,7 +217,7 @@
 | :--------------------------------------------------- | :----------------------------------------------------------- | :----------- | :------------------- |
 | [Random Pick with Weight](RandomPickwithWeight.java) | [LeetCode 528](https://leetcode.com/problems/random-pick-with-weight/) | *Medium*     | Random, BinarySearch |
 | Perfect Shuffle                                      | Laicode 108                                                  | *Medium*     |                      |
-| Shuffle an Array                                     | [Leetcode 384](https://leetcode.com/problems/shuffle-an-array/) | *Medium*     |                      |
+| [Shuffle an Array](src/ShuffleanArray.java)          | [Leetcode 384](https://leetcode.com/problems/shuffle-an-array/) | *Medium*     |                      |
 | Reservoir Sampling                                   | Laicode 109                                                  | *Medium*     |                      |
 | Generalized Reservoir Sampling                       | Laicode 110                                                  | *Medium*     |                      |
 | Random7 Using Random5                                | Laicode 111                                                  | *Medium*     |                      |
