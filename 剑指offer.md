@@ -40,4 +40,13 @@
 | [Convert Binary Search Tree to Sorted Doubly Linked List](ConvertBinarySearchTreetoSortedDoublyLinkedList.java) | [LeetCode 426](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | *Medium*     | DFS            |                                                              |
 | [Serialize and Deserialize Binary Tree](src/SerializeandDeserializeBinaryTree.java) | [LeetCode 297](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | **Hard** | Tree |                                                              |
 | [String Permutation](src/StringPermutation.java) | [N/A](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/) | *Medium* | DFS | LeetCode 47 int[] permutation |
+| [Majority Element](src/MajorityNumberI.java) | [LeetCode 169](https://leetcode.com/problems/majority-element/) | Easy |  |  |
+| [K Smallest Element in an Array](src/KSmallestElementinArray.java) | [N/A](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/) | **Hard**     | Heap, Quick Select | Kth largest [LeetCode 215](https://leetcode.com/problems/kth-largest-element-in-an-array/) |
+| [Find Median from Data Stream](src/FindMedianfromDataStream.java) | [Leetcode 295](https://leetcode.com/problems/find-median-from-data-stream/) | **Hard** | Heap |  |
+| [Maximum Subarray](src/MaximumSubarray.java) | [LeetCode 53](https://leetcode.com/problems/maximum-subarray/) | Easy | DP |  |
+| [Nth Digit](src/NthDigit.java) | [LeetCode 400](https://leetcode.com/problems/nth-digit/) | *Medium* | Math |  |
+| [Permutation Min Number](src/PermutationminNumber.java) | [N/A](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | *Medium* |  | 把数组排成最小的数 |
+| [Ways to Translate Num](src/translateNum.java) | [N/A](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | *Medium* | DP |  |
+| [Max Value Gift](src/MaxValueGift.java) | [N/A](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) | *Medium* | DP |  |
+| [Longest Substring Without Repeating Characters](src/LongestSubstringWithoutRepeatingCharacters.java) | [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | *Medium* | DP |  |
 

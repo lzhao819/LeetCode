@@ -7,13 +7,13 @@
 | :------- | :-------------- | :----------- | :--- |
 | [Classic Binary Search](src/ClassicBinarySearch.java) | [Leetcode 704](https://leetcode.com/problems/binary-search/) | Easy |  |
 | [Search a 2D Matrix](src/Search2DMatrix.java) | [Leetcode 74](https://leetcode.com/problems/search-a-2d-matrix/) | Easy |  |
-| Closest In Sorted Array | Laicode 17: | *Medium* |  |
+| Closest In Sorted Array | Lai 17: | *Medium* |  |
 | [Find First and Last Position of Element in Sorted Array](src/FirstandLast.java) | [Leetcode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | *Medium* |  |
 | Find K Closest Elements | [Leetcode 658](https://leetcode.com/problems/find-k-closest-elements/) | *Medium* |  |
 | Find Smallest Letter Greater Than Target | [Leetcode 744](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Easy |  |
 | Search in a Sorted Array of Unknown Size | [Leetcode 702](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) | *Medium* |  |
 | [Find Minimum in Rotated Sorted Array II](src/FindMinInRotatedSortedArrayII.java) | [LeetCode 154](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | **Hard** |  |
-| [Kth Smallest In Two Sorted Arrays](KthSmallestInTwoSortedArrays.java) | [LaiCode202](https://app.laicode.io/app/problem/202) | **Hard** |  |
+| [Kth Smallest In Two Sorted Arrays](KthSmallestInTwoSortedArrays.java) | [Lai202](https://app.laicode.io/app/problem/202) | **Hard** |  |
 | [Median of Two Sorted Arrays](MedianofTwoSortedArrays.java) | [LeetCode4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | **Hard** |  |
 | [Search in Rotated Sorted Array](SearchinRotatedSortedArray.java) | [LeetCode33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | *Medium* |  |
 | [Time Based Key-Value Store](TimeBasedKey-ValueStore.java) | [LeetCode981](https://leetcode.com/problems/time-based-key-value-store/) | *Medium* |  |
@@ -21,27 +21,27 @@
 |  |  |  |  |
 ## Recursion
 
-| Solution                                                     | Question Number                                              | Difficulties | Note          |
-| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------- | :------------ |
-| [Fibonacci Number](src/FibonacciNumber.java)                 | [Leetcode 509](https://leetcode.com/problems/fibonacci-number/) | Easy         | Recursion, DP |
-| [Pow(x, n)](src/Pow.java)                                    | [Leetcode 50](https://leetcode.com/problems/powx-n/)         | *Medium*     | Recursion     |
-| [Number of Ways to Reorder Array to Get Same BST](NumberofWaystoReorderArraytoGetSameBST.java) | [LeetCode 1569](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | **Hard**     |               |
-| Selection Sort                                               | Laicode 4                                                    | Easy         | Sort          |
-| Sort With 2 Stacks                                           | Laicode 280                                                  | *Medium*     | Sort          |
-| Merge Sort                                                   | Laicode 9                                                    | *Medium*     |               |
-| [Merge Intervals](MergeIntervals.java)                       | [Leetcode 56](https://leetcode.com/problems/merge-intervals/) | *Medium*     |               |
-| Quick Sort                                                   | Laicode 10                                                   | *Medium*     |               |
-| Move 0s To The End                                           | Laicode 258                                                  | Easy         |               |
-| Sort Colors                                                  | [Leetcode 75](https://leetcode.com/problems/sort-colors/)    | *Medium*     |               |
-| [Spiral Matrix (M * N)](src/SpiralMatrix.java)               | [Leetcode 54](https://leetcode.com/problems/spiral-matrix/)  | *Medium*     |               |
-| Reverse Linked List In Pairs                                 | Laicode 35                                                   | *Medium*     |               |
-| N - Queens                                                   | [Leetcode 51](https://leetcode.com/problems/n-queens/)       | **Hard**     | DFS           |
-| String Abbreviation Matching                                 | Laicode292                                                   | *Medium*     |               |
-| Store Number Of Nodes In Left Subtree                        | Laicode 646                                                  | Medium*      |               |
-| Lowest Common Ancestor of a Binary Tree                      | [Leetcode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | *Medium*     |               |
-| Binary Tree Upside Down                                      | [Leetcode 156](https://leetcode.com/problems/binary-tree-upside-down/) | *Medium*     |               |
-|                                                              |                                                              |              |               |
-|                                                              |                                                              |              |               |
+| Solution                                                     | Question Number                                              | Difficulties | Note               |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------- | :----------------- |
+| [Fibonacci Number](src/FibonacciNumber.java)                 | [Leetcode 509](https://leetcode.com/problems/fibonacci-number/) | Easy         | Recursion, DP      |
+| [Pow(x, n)](src/Pow.java)                                    | [Leetcode 50](https://leetcode.com/problems/powx-n/)         | *Medium*     | Recursion          |
+| [Number of Ways to Reorder Array to Get Same BST](NumberofWaystoReorderArraytoGetSameBST.java) | [LeetCode 1569](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) | **Hard**     |                    |
+| Selection Sort                                               | Lai 4                                                        | Easy         | Sort               |
+| Sort With 2 Stacks                                           | Lai 280                                                      | *Medium*     | Sort               |
+| Merge Sort                                                   | Lai 9                                                        | *Medium*     |                    |
+| [Merge Intervals](MergeIntervals.java)                       | [Leetcode 56](https://leetcode.com/problems/merge-intervals/) | *Medium*     |                    |
+| [Quick Sort](src/Sort.java)                                  | N/A                                                          | *Medium*     |                    |
+| Move 0s To The End                                           | Lai 258                                                      | Easy         |                    |
+| Sort Colors                                                  | [Leetcode 75](https://leetcode.com/problems/sort-colors/)    | *Medium*     |                    |
+| [Spiral Matrix (M * N)](src/SpiralMatrix.java)               | [Leetcode 54](https://leetcode.com/problems/spiral-matrix/)  | *Medium*     |                    |
+| Reverse Linked List In Pairs                                 | Lai 35                                                       | *Medium*     |                    |
+| N - Queens                                                   | [Leetcode 51](https://leetcode.com/problems/n-queens/)       | **Hard**     | DFS                |
+| String Abbreviation Matching                                 | Lai292                                                       | *Medium*     |                    |
+| Store Number Of Nodes In Left Subtree                        | Lai 646                                                      | Medium*      |                    |
+| Lowest Common Ancestor of a Binary Tree                      | [Leetcode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | *Medium*     |                    |
+| Binary Tree Upside Down                                      | [Leetcode 156](https://leetcode.com/problems/binary-tree-upside-down/) | *Medium*     |                    |
+| [Kth Largest Element in an Array](src/KthLargestElementinArray.java) | [Leetcode 215](https://leetcode.com/problems/kth-largest-element-in-an-array/) | **Hard**     | Heap, Quick Select |
+|                                                              |                                                              |              |                    |
 
 ## LinkedList
 
@@ -52,7 +52,7 @@
 | Middle of the Linked List                                    | [Leetcode 876](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy         |                   |
 | Linked List Cycle                                            | [Leetcode 141](https://leetcode.com/problems/linked-list-cycle/) | Easy         |                   |
 | Linked List Cycle II                                         | [Leetcode 142](https://leetcode.com/problems/linked-list-cycle-ii/) | *Medium*     |                   |
-| Insert In Sorted Linked List                                 | Laicode 39                                                   | Easy         |                   |
+| Insert In Sorted Linked List                                 | Lai 39                                                       | Easy         |                   |
 | Insertion Sort List                                          | [Leetcode 147](https://leetcode.com/problems/insertion-sort-list/) | *Medium*     |                   |
 | [Merge Two Sorted Lists](src/MergeTwoSortedLists.java)       | [Leetcode 21](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy         |                   |
 | Reorder List                                                 | [Leetcode 143](https://leetcode.com/problems/reorder-list/)  | *Medium*     |                   |
@@ -73,11 +73,12 @@
 | [Implement Queue using Stacks](src/ImplementQueueusingStacks.java) | [Leetcode 232](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy         | Stack |
 | Evaluate Reverse Polish Notation                             | [Leetcode 150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | *Medium*     |       |
 | Largest Rectangle in Histogram                               | [Leetcode 84](https://leetcode.com/problems/largest-rectangle-in-histogram/) | **Hard**     |       |
-| Design Circular Deque                                        | Laicode 613                                                  | *Medium*     |       |
+| Design Circular Deque                                        | Lai 613                                                      | *Medium*     |       |
 | Implement Stack using Queues                                 | [Leetcode 225](https://leetcode.com/problems/implement-stack-using-queues/) | Easy         |       |
 | Design Circular Deque                                        | [Leetcode 641](https://leetcode.com/problems/design-circular-deque/) | *Medium*     |       |
-| Design Circular Queue                                        | Laicode 614                                                  | *Medium*     |       |
+| Design Circular Queue                                        | Lai 614                                                      | *Medium*     |       |
 | [Validate Stack Sequences](src/ValidateStackSequences.java)  | [LeetCode 946](https://leetcode.com/problems/validate-stack-sequences/) | *Medium*     |       |
+| [Find Median from Data Stream](src/FindMedianfromDataStream.java) | [Leetcode 295](https://leetcode.com/problems/find-median-from-data-stream/) | **Hard**     | Heap  |
 
 ## Tree&BST
 
@@ -90,15 +91,15 @@
 | Same Tree                                                    | [Leetcode 100](https://leetcode.com/problems/same-tree/)     | Easy         |           |
 | Maximum Depth of Binary Tree                                 | [LeetCode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy         |           |
 | [Balanced Binary Tree](BalancedTree.java)                    | [LeetCode110](https://leetcode.com/problems/balanced-binary-tree/) | Easy         |           |
-| [Maximum Path Sum Binary Tree I](MaximumPathSumBinaryTreeI.java) | [LaiCode138](https://app.laicode.io/app/problem/138)         | *Medium*     |           |
+| [Maximum Path Sum Binary Tree I](MaximumPathSumBinaryTreeI.java) | [Lai138](https://app.laicode.io/app/problem/138)             | *Medium*     |           |
 | [Maximum Path Sum Binary Tree II](MaximumPathSumBinaryTreeII.java) | [LeetCode124](https://leetcode.com/problems/binary-tree-maximum-path-sum) | **Hard**     |           |
-| [Maximum Path Sum Binary Tree III](MaximumPathSumBinaryTreeIII.java) | [LaiCode140](https://app.laicode.io/app/problem/140)         | *Medium*     |           |
-| [Max Path Sum Leaf To Root](MaxPathSumLeafToRoot.java)       | [LaiCode639](https://app.laicode.io/app/problem/639)         | *Medium*     |           |
-| [Binary Tree Path Sum To Target III](BinaryTreePathSumToTargetIII.java) | [LaiCode141](https://app.laicode.io/app/problem/141)         | *Medium*     |           |
+| [Maximum Path Sum Binary Tree III](MaximumPathSumBinaryTreeIII.java) | [Lai140](https://app.laicode.io/app/problem/140)             | *Medium*     |           |
+| [Max Path Sum Leaf To Root](MaxPathSumLeafToRoot.java)       | [Lai639](https://app.laicode.io/app/problem/639)             | *Medium*     |           |
+| [Binary Tree Path Sum To Target III](BinaryTreePathSumToTargetIII.java) | [Lai141](https://app.laicode.io/app/problem/141)             | *Medium*     |           |
 | [Path Sum II](src/PathSumII.java)                            | [LeetCode 113](https://leetcode.com/problems/path-sum-ii/)   | *Medium*     | Tree, DFS |
 | [Flatten Binary Tree to Linked List](FlattenBinaryTree.java) | [LeetCode144](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | *Medium*     |           |
-| [Construct Binary Tree from Levelorder and Inorder Traversal](ReconstructBinaryTreeL&I.java) | [LaiCode215](https://app.laicode.io/app/problem/215)         | **Hard**     |           |
-| [Construct Binary Search Tree from Postorder](ReconstructBSTPost.java) | [LaiCode211](https://app.laicode.io/app/problem/211)         | *Medium*     |           |
+| [Construct Binary Tree from Levelorder and Inorder Traversal](ReconstructBinaryTreeL&I.java) | [Lai215](https://app.laicode.io/app/problem/215)             | **Hard**     |           |
+| [Construct Binary Search Tree from Postorder](ReconstructBSTPost.java) | [Lai211](https://app.laicode.io/app/problem/211)             | *Medium*     |           |
 | [Construct Binary Search Tree from Preorder](ReconstructBSTPre.java) | [LeetCode1008](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | *Medium*     |           |
 | Binary Tree Preorder Traversal                               | [Leetcode 144](https://leetcode.com/problems/binary-tree-preorder-traversal/) | *Medium*     |           |
 | Binary Tree Postorder Traversal                              | [Leetcode 145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | *Medium*     |           |
@@ -117,8 +118,8 @@
 |Is Graph Bipartite?|[Leetcode 785](https://leetcode.com/problems/is-graph-bipartite/)| *Medium* |  |
 |Check Completeness of a Binary Tree|[Leetcode 958](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)| *Medium* |  |
 |Kth Smallest Element in a Sorted Matrix|[Leetcode 378](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)| *Medium* |  |
-|Kth Smallest Sum In Two Sorted Arrays|Laicode 27| *Medium* | Heap, BFSII |
-|Kth Largest Element in an Array|[Leetcode 215](https://leetcode.com/problems/kth-largest-element-in-an-array/)| **Hard** | Heap |
+|Kth Smallest Sum In Two Sorted Arrays|Lai 27| *Medium* | Heap, BFSII |
+|                                                              |                                                              |              |             |
 
 ## DFS
 
@@ -126,10 +127,10 @@
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------- | :-------- |
 | [Construct Binary Tree from Preorder and Inorder Traversal](src/ReconstructBinaryTreeP_I.java) | [LeetCode105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | *Medium*     | Tree, DFS |
 | Subsets                                                      | [Leetcode 78](https://leetcode.com/problems/subsets/) [90](https://leetcode.com/problems/subsets-ii/) | *Medium*     |           |
-| All Subsets II(with duplicate)                               | Laicode 63                                                   | **Hard**     |           |
-| All Subsets of Size K (no duplication)                       | Laicode 640                                                  | *Medium*     |           |
+| All Subsets II(with duplicate)                               | Lai 63                                                       | **Hard**     |           |
+| All Subsets of Size K (no duplication)                       | Lai 640                                                      | *Medium*     |           |
 | Generate Parentheses                                         | [Leetcode 22](https://leetcode.com/problems/generate-parentheses/) | *Medium*     |           |
-| All Valid Permutations Of Parentheses II                     | Laicode 179                                                  | **Hard**     |           |
+| All Valid Permutations Of Parentheses II                     | Lai 179                                                      | **Hard**     |           |
 | Combination Sum                                              | [Leetcode 39](https://leetcode.com/problems/combination-sum/) | *Medium*     |           |
 | [Permutations](src/Permutations.java)                        | [Leetcode 46](https://leetcode.com/problems/permutations/)   | *Medium*     |           |
 | [Permutations II](src/PermutationsII.java)                   | [Leetcode 47](https://leetcode.com/problems/permutations-ii/) | *Medium*     |           |
@@ -151,21 +152,21 @@
 | [Verifying an Alien Dictionary](VerifyingAlienDictionary.java) | [LeetCode 953](https://leetcode.com/problems/verifying-an-alien-dictionary/) | Easy         |      |
 | Reverse String                                               | [Leetcode 344](https://leetcode.com/problems/reverse-string/) | Easy         |      |
 | Reverse Words in a String                                    | [Leetcode 151](https://leetcode.com/problems/reverse-words-in-a-string/) | *Medium*     |      |
-| Right Shift By N Characters                                  | Laicode 397                                                  | Easy         |      |
-| String Replace                                               | Laicode 172                                                  | **Hard**     |      |
+| Right Shift By N Characters                                  | Lai 397                                                      | Easy         |      |
+| String Replace                                               | Lai 172                                                      | **Hard**     |      |
 | Permutations II                                              | [Leetcode 47](https://leetcode.com/problems/permutations-ii/): | *Medium*     | DFS  |
-| Permutations II                                              | Laicode 65                                                   | *Medium*     |      |
-| ReOrder Array                                                | Laicode 197                                                  | **Hard**     |      |
-| Compress String II                                           | Laicode 611                                                  | **Hard**     |      |
+| Permutations II                                              | Lai 65                                                       | *Medium*     |      |
+| ReOrder Array                                                | Lai 197                                                      | **Hard**     |      |
+| Compress String II                                           | Lai 611                                                      | **Hard**     |      |
 | String Compression                                           | [Leetcode 433](https://leetcode.com/problems/string-compression/) | Easy         |      |
-| Decompress String II                                         | Laicode 175                                                  | Hard         |      |
-| Longest Substring Without Repeating Characters               | [Leetcode 47](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | *Medium*     |      |
+| Decompress String II                                         | Lai 175                                                      | Hard         |      |
+| [Longest Substring Without Repeating Characters](src/LongestSubstringWithoutRepeatingCharacters.java) | [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | *Medium*     |      |
 | Find All Anagrams in a String                                | [Leetcode 438](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | *Medium*     |      |
-| Longest subarray contains only 1s                            | Laicode 625                                                  | *Medium*     |      |
+| Longest subarray contains only 1s                            | Lai 625                                                      | *Medium*     |      |
 | Remove Element                                               | [Leetcode 27](https://leetcode.com/problems/remove-element/) | Easy         |      |
-| Remove Spaces                                                | Laicode 281                                                  | Easy         |      |
+| Remove Spaces                                                | Lai 281                                                      | Easy         |      |
 | Remove All Adjacent Duplicates in String                     | [Leetcode 1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | *Medium*     |      |
-| Is A Substring                                               | Laicode 85                                                   | *Medium*     |      |
+| Is A Substring                                               | Lai 85                                                       | *Medium*     |      |
 | Is Subsequence                                               | [Leetcode 392](https://leetcode.com/problems/is-subsequence/) | Easy         |      |
 | Find The Difference                                          | [Leetcode 389](https://leetcode.com/problems/find-the-difference/) | Easy         |      |
 |                                                              |                                                              |              |      |
@@ -177,21 +178,21 @@
 | Solution | Question Number | Difficulties | Tags |
 | :------- | :-------------- | :----------- | :--- |
 | [Regular Expression Matching](src/RegularExpressionMatching.java) |  |              | DP |
-| Longest Ascending SubArray | Laicode 86 | Easy         |  |
-| Array Hopper I | Laicode 88 | *Medium*     |  |
-| Array Hopper II | Laicode 89                                                   | *Medium*     |  |
-| [Maximum Subarray](MaximumSubarray.java) | [LeetCode 53](https://leetcode.com/problems/maximum-subarray/) | Easy         |  |
+| Longest Ascending SubArray | Lai 86 | Easy         |  |
+| Array Hopper I | Lai 88 | *Medium*     |  |
+| Array Hopper II | Lai 89                                                   | *Medium*     |  |
+| [Maximum Subarray](src/MaximumSubarray.java) | [LeetCode 53](https://leetcode.com/problems/maximum-subarray/) | Easy         |  |
 | [Best Time to Buy and Sell Stock](BestTimetoBuyandSellStock.java) | [LeetCode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy         |  |
-| Dictionary Word I | Laicode 99 | *Medium*     |  |
-| Edit Distance | Laicode 100 | *Medium*     |  |
-| Largest Square Of 1s | Laicode 101 | **Hard**     |  |
-| Longest Consecutive 1s | Laicode 103 | Easy         |  |
-| Longest Cross Of 1s | Laicode 104 | **Hard**     |  |
-| Largest X Of 1s | Laicode 105 | **Hard**     |  |
-| Largest Square Surrounded By One | Laicode 637 | *Medium*     |  |
-| Largest Square Of Matches | Laicode 638 | *Medium*     |  |
-| Largest SubMatrix Sum | Laicode 106 | **Hard**     |  |
-| Minimum Cuts For Palindromes | Laicode 143 | *Medium*     |  |
+| Dictionary Word I | Lai 99 | *Medium*     |  |
+| Edit Distance | Lai 100 | *Medium*     |  |
+| Largest Square Of 1s | Lai 101 | **Hard**     |  |
+| Longest Consecutive 1s | Lai 103 | Easy         |  |
+| Longest Cross Of 1s | Lai 104 | **Hard**     |  |
+| Largest X Of 1s | Lai 105 | **Hard**     |  |
+| Largest Square Surrounded By One | Lai 637 | *Medium*     |  |
+| Largest Square Of Matches | Lai 638 | *Medium*     |  |
+| Largest SubMatrix Sum | Lai 106 | **Hard**     |  |
+| Minimum Cuts For Palindromes | Lai 143 | *Medium*     |  |
 | [Longest Palindromic Substring](LongestPalindromicSubstring.java) | [LeetCode 5](https://leetcode.com/problems/longest-palindromic-substring/) | *Medium*     |  |
 | [Palindrome Removal](PalindromeRemoval.java) | [LeetCode 1246](https://leetcode.com/problems/palindrome-removal/) | **Hard**     |  |
 | [Longest Increasing Subsequence](LongestIncreasingSubsequence.java) | [LeetCode 300](https://leetcode.com/problems/longest-increasing-subsequence/) | *Medium*     | BinarySearch |
@@ -203,10 +204,10 @@
 | :------------------------------ | :----------------------------------------------------------- | :----------- | :--- |
 | Power of Two                    | [Leetcode 231](https://leetcode.com/problems/power-of-two/)  | Easy         |      |
 | Power of Four                   | [Leetcode 342](https://leetcode.com/problems/power-of-four/) | Easy         |      |
-| Number Of Different Bits        | Laicode 75                                                   | Easy         |      |
+| Number Of Different Bits        | Lai 75                                                       | Easy         |      |
 | Counting Bits                   | [Leetcode 338](https://leetcode.com/problems/counting-bits/) | *Medium*     |      |
-| All Unique Characters II        | Laicode 77                                                   | *Medium*     |      |
-| Reverse Bits of 32-bit Integer  | Laicode 626                                                  | Easy         |      |
+| All Unique Characters II        | Lai 77                                                       | *Medium*     |      |
+| Reverse Bits of 32-bit Integer  | Lai 626                                                      | Easy         |      |
 | Convert a Number to Hexadecimal | [Leetcode 405](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | Easy         |      |
 |                                 |                                                              |              |      |
 |                                 |                                                              |              |      |
@@ -216,14 +217,14 @@
 | Solution                                             | Question Number                                              | Difficulties | Notes                |
 | :--------------------------------------------------- | :----------------------------------------------------------- | :----------- | :------------------- |
 | [Random Pick with Weight](RandomPickwithWeight.java) | [LeetCode 528](https://leetcode.com/problems/random-pick-with-weight/) | *Medium*     | Random, BinarySearch |
-| Perfect Shuffle                                      | Laicode 108                                                  | *Medium*     |                      |
+| Perfect Shuffle                                      | Lai 108                                                      | *Medium*     |                      |
 | [Shuffle an Array](src/ShuffleanArray.java)          | [Leetcode 384](https://leetcode.com/problems/shuffle-an-array/) | *Medium*     |                      |
-| Reservoir Sampling                                   | Laicode 109                                                  | *Medium*     |                      |
-| Generalized Reservoir Sampling                       | Laicode 110                                                  | *Medium*     |                      |
-| Random7 Using Random5                                | Laicode 111                                                  | *Medium*     |                      |
+| Reservoir Sampling                                   | Lai 109                                                      | *Medium*     |                      |
+| Generalized Reservoir Sampling                       | Lai 110                                                      | *Medium*     |                      |
+| Random7 Using Random5                                | Lai 111                                                      | *Medium*     |                      |
 | Implement Rand10() Using Rand7()                     | [Leetcode 470](https://leetcode.com/problems/implement-rand10-using-rand7/) | *Medium*     |                      |
-| Random1000 Using Random5                             | Laicode 112                                                  | *Medium*     |                      |
-| 95 Percentile                                        | Laicode 114                                                  | *Medium*     |                      |
+| Random1000 Using Random5                             | Lai 112                                                      | *Medium*     |                      |
+| 95 Percentile                                        | Lai 114                                                      | *Medium*     |                      |
 
 ## Uncategorized yet
 
@@ -241,23 +242,21 @@
 | [Insert Interval](src/insertInterval/Solution.java)          | [LeetCode 57](https://leetcode.com/problems/insert-interval/) | *Medium*     | Array         |
 | [Search a 2D Matrix II](src/Search2DMatrixII.java)           | [LeetCode 240](https://leetcode.com/problems/search-a-2d-matrix-ii/) | *Medium*     | Array         |
 | [Special Array With X Elements Greater Than Or Equal X]      | [LeetCode 5531](https://leetcode-cn.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | Easy         | Array         |
+| [Nth Digit](src/NthDigit.java)                               | [LeetCode 400](https://leetcode.com/problems/nth-digit/)     | *Medium*     | Math          |
 
-* [Leetcode 295](https://leetcode.com/problems/find-median-from-data-stream/): Find Median from Data Stream
-  * **Hard**
-  * Heap
-* [Majority Number I](MajorityNumberI.java) - [LeetCode 169](https://leetcode.com/problems/majority-element/)
+* [Majority Number I](src/MajorityNumberI.java) - [LeetCode 169](https://leetcode.com/problems/majority-element/)
   * Easy
   * Array
 * [Majority Number II](MajorityNumberII.java) - [LeetCode 229](https://leetcode.com/problems/majority-element-ii/)
   * *Medium*
   * Array, HashMap
-* [Majority Number III](MajorityNumberIII.java) - [LaiCode 208](https://app.laicode.io/app/problem/208)
+* [Majority Number III](MajorityNumberIII.java) - [Lai 208](https://app.laicode.io/app/problem/208)
   * **Hard**
   * Array, HashMap
 * [Implement LRU Cache](LRUCache.java) - [LeetCode 146](https://leetcode.com/problems/lru-cache/)
   * *Medium*s
   * HashMap, LinkedList
-* [First Non-Repeating Character In Stream](FirstNon-RepeatingCharacter.java) - [LaiCode 288](https://app.laicode.io/app/problem/288)
+* [First Non-Repeating Character In Stream](FirstNon-RepeatingCharacter.java) - [Lai 288](https://app.laicode.io/app/problem/288)
   * *Medium*
   * HashMap, LinkedList
 * [Maximum Values Of Size K Sliding Windows](MaxOfKSlidingWindows.java) - [LeetCode 239](https://leetcode.com/problems/sliding-window-maximum/)

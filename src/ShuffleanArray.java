@@ -1,3 +1,11 @@
+/**
+ * How to copy an array
+ * We can avoid iteration over elements using clone() or System.arraycopy()
+ *  clone() creates a new array of same size, but System.arraycopy() can be used to copy from a source range to a destination range.
+ *  System.arraycopy() is faster than clone() as it uses Java Native Interface
+ *  Arrays.copyOf();
+ */
+
 public class ShuffleanArray {
     class Solution {
         private int[] nums;

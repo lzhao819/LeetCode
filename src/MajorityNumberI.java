@@ -9,7 +9,7 @@
 // A = {1, 2, 1, 2, 1}, return 1
 //time O(n)
 //space O(1)
-public class Solution {
+public class MajorityNumberI {
     public int majority(int[] array) {
       int major =array[0];
       int count =0;
