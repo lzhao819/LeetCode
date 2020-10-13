@@ -243,6 +243,11 @@
 | [Search a 2D Matrix II](src/Search2DMatrixII.java)           | [LeetCode 240](https://leetcode.com/problems/search-a-2d-matrix-ii/) | *Medium*     | Array         |
 | [Special Array With X Elements Greater Than Or Equal X]      | [LeetCode 5531](https://leetcode-cn.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) | Easy         | Array         |
 | [Nth Digit](src/NthDigit.java)                               | [LeetCode 400](https://leetcode.com/problems/nth-digit/)     | *Medium*     | Math          |
+| [Count Primes](src/CountPrimes.java)                         | [LeetCode 204](https://leetcode.com/problems/count-primes/)  | Easy         | Math          |
+| [Ugly Number]                                                |                                                              |              |               |
+|                                                              |                                                              |              |               |
+|                                                              |                                                              |              |               |
+|                                                              |                                                              |              |               |
 
 * [Majority Number I](src/MajorityNumberI.java) - [LeetCode 169](https://leetcode.com/problems/majority-element/)
   * Easy
