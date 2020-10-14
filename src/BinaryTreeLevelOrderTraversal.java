@@ -7,6 +7,7 @@ import java.util.Queue;
  * 剑指32
  * return int[] array
  * 注意返回时数据的处理
+ *
  */
 class BinaryTreeLevelOrderTraversalI {
     public int[] levelOrder(TreeNode root) {
