@@ -1,5 +1,5 @@
 //704 Classic Binary Search
-class Solution {
+class ClassicBinarySearch {
     public int search(int[] nums, int target) {
         //no need to consider coner case as it already been handled by l and r
         int l=0,r=nums.length-1;

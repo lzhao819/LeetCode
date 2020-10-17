@@ -9,7 +9,7 @@ import java.util.List;
  * Space O(1)
  */
 
-class Solution {
+class SpiralMatrix {
   public List<Integer> spiralOrder(int[][] matrix) {
     if(matrix==null || matrix.length==0||matrix[0]==null) return new ArrayList<Integer>();
     List<Integer> result = new ArrayList<>();

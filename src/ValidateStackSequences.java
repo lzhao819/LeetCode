@@ -18,8 +18,7 @@ class ValidateStackSequencesI {
                 stack.push(pushed[pushIndex++]);
             }
         }
-        if(popIndex==popped.length) return true;
-        return false;
+        return popIndex == popped.length;
     }
 }
 /**Solution 2 Time O(n)
@@ -37,8 +36,7 @@ class ValidateStackSequencesII {
                 pushIndex--;
             }
         }
-        if(popIndex==popped.length) return true;
-        return false;
+        return popIndex == popped.length;
     }
 }
 

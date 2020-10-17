@@ -6,9 +6,9 @@
  */
 
 interface ImmutableListNode {
-      public void printValue(); // print the value of this node.
-      public ImmutableListNode getNext(); // return the next node.
-  };
+      void printValue(); // print the value of this node.
+      ImmutableListNode getNext(); // return the next node.
+  }
 
 public class PrintLinkedListReverse {
     public void printLinkedListInReverse(ImmutableListNode head) {

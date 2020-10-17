@@ -10,7 +10,7 @@
  * }
  */
 //Iteration
-class Solution {
+class SolutionI {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
         while(head!=null){
@@ -24,7 +24,7 @@ class Solution {
 }
 
 //recursion
-class Solution {
+class SolutionII {
     public ListNode reverseList(ListNode head) {
         if(head == null || head.next == null) return head;
         ListNode next = reverseList(head.next);

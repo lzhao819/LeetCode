@@ -34,8 +34,7 @@ class ImplementQueueusingStacks {
     
     /** Returns whether the queue is empty. */
     public boolean empty() {
-        if(in.isEmpty() && out.isEmpty()) return true;
-        return false;
+        return in.isEmpty() && out.isEmpty();
     }
     
     //while out is empty, move all the elements in in to out

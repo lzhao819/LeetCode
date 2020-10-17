@@ -25,7 +25,7 @@ public class Solution {
         return min_size == Integer.MAX_VALUE? 0 : min_size ;
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         int s=7;
         int[] nums = {2,3,1,2,4,3};
         int output = minSubArrayLen(s,nums);
