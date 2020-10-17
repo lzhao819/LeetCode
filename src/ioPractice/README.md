@@ -1,8 +1,8 @@
 # Scanner vs BufferedReader
 
-[牛客网IO练习场]([https://ac.nowcoder.com/acm/contest/5650?from=hr_test#question](https://ac.nowcoder.com/acm/contest/5650?from=hr_test#question))
+[牛客网IO练习场](https://ac.nowcoder.com/acm/contest/5650?from=hr_test#question)
 
-[可使用此链接自测输入输出]([https://ac.nowcoder.com/acm/contest/5650/K](https://ac.nowcoder.com/acm/contest/5650/K))
+[可使用此链接自测输入输出](https://ac.nowcoder.com/acm/contest/5650/K)
 
 **BufferedReader** 快很多！推荐
 
