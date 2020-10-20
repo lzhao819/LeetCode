@@ -49,4 +49,12 @@
 | [Ways to Translate Num](src/translateNum.java) | [N/A](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/) | *Medium* | DP |  |
 | [Max Value Gift](src/MaxValueGift.java) | [N/A](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/) | *Medium* | DP |  |
 | [Longest Substring Without Repeating Characters](src/LongestSubstringWithoutRepeatingCharacters.java) | [LeetCode 3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | *Medium* | DP |  |
+| [Ugly Number II](src/UglyNumberII.java) | [LeetCode 264](https://leetcode.com/problems/ugly-number-ii/) | *Medium* | DP |  |
+| [First Unique Char](src/firstUniqChar.java) | [N/A](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) | Easy | HashMap | |
+| [Reverse Pairs in Array](src/reversePairs.java) | [N/A]() | **Hard** | Sort | |
+| [Intersection of Two Linked Lists](src/GetIntersectionNode.java) | [LeetCode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy         | LinkedList | |
+| [Find First and Last Position of Element in Sorted Array](src/FirstandLast.java) | [Leetcode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | *Medium* | BinarySearch | 在排序数组中查找数字 |
+|  |  |  |  | |
+|  |  |  |  | |
+|  |  |  |  | |
 

@@ -63,7 +63,7 @@
 | [Add Two Numbers II](AddTwoNumbersII.java)                   | [LeetCode 445](https://leetcode.com/problems/add-two-numbers-ii/) | *Medium*     | LinkedList, Stack |
 | Palindrome Linked List                                       | [Leetcode 234](https://leetcode.com/problems/palindrome-linked-list/) | Easy         |                   |
 | [Copy List with Random Pointer](src/CopyListwithRandomPointer.java) | [LeetCode 138](https://leetcode.com/problems/copy-list-with-random-pointer/) | *Medium*     | LinkedList        |
-|                                                              |                                                              |              |                   |
+| [Intersection of Two Linked Lists](src/GetIntersectionNode.java) | [LeetCode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy         |                   |
 
 ## Stack&Queue
 
@@ -79,6 +79,7 @@
 | Design Circular Queue                                        | Lai 614                                                      | *Medium*     |       |
 | [Validate Stack Sequences](src/ValidateStackSequences.java)  | [LeetCode 946](https://leetcode.com/problems/validate-stack-sequences/) | *Medium*     |       |
 | [Find Median from Data Stream](src/FindMedianfromDataStream.java) | [Leetcode 295](https://leetcode.com/problems/find-median-from-data-stream/) | **Hard**     | Heap  |
+| [Maximum Values Of Size K Sliding Windows](src/MaxOfKSlidingWindows.java) | [LeetCode 239](https://leetcode.com/problems/sliding-window-maximum/) | **Hard**     | Deque |
 
 ## Tree&BST
 
@@ -138,11 +139,12 @@
 
  ## HashTable
 
-| Solution                   | Question Number                                              | Diffculties | Note |
-| :------------------------- | :----------------------------------------------------------- | :---------- | :--- |
-| Missing Number             | [Leetcode 268](https://leetcode.com/problems/missing-number/) | Easy        |      |
-| Top K Frequent Words       | [Leetcode 692](https://leetcode.com/problems/top-k-frequent-words/) [347](https://leetcode.com/problems/top-k-frequent-elements/) | *Medium*    |      |
-| Intersection of Two Arrays | [Leetcode 349](https://leetcode.com/problems/intersection-of-two-arrays/) [350](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy        |      |
+| Solution                                    | Question Number                                              | Diffculties | Note |
+| :------------------------------------------ | :----------------------------------------------------------- | :---------- | :--- |
+| Missing Number                              | [Leetcode 268](https://leetcode.com/problems/missing-number/) | Easy        |      |
+| Top K Frequent Words                        | [Leetcode 692](https://leetcode.com/problems/top-k-frequent-words/) [347](https://leetcode.com/problems/top-k-frequent-elements/) | *Medium*    |      |
+| Intersection of Two Arrays                  | [Leetcode 349](https://leetcode.com/problems/intersection-of-two-arrays/) [350](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy        |      |
+| [Most Common Word](src/MostCommonWord.java) | [LeetCode 819](https://leetcode.com/problems/most-common-word/) | Easy        |      |
 
 ## String
 
@@ -197,6 +199,7 @@
 | [Palindrome Removal](PalindromeRemoval.java) | [LeetCode 1246](https://leetcode.com/problems/palindrome-removal/) | **Hard**     |  |
 | [Longest Increasing Subsequence](LongestIncreasingSubsequence.java) | [LeetCode 300](https://leetcode.com/problems/longest-increasing-subsequence/) | *Medium*     | BinarySearch |
 | [Decode Ways](DecodeWays.java) | [LeetCode 91](https://leetcode.com/problems/decode-ways/) | *Medium*     |  |
+| [Ugly Number II](src/UglyNumberII.java) | [LeetCode 264](https://leetcode.com/problems/ugly-number-ii/) | *Medium* | DP |
 
 ## Bit
 
@@ -264,9 +267,6 @@
 * [First Non-Repeating Character In Stream](FirstNon-RepeatingCharacter.java) - [Lai 288](https://app.laicode.io/app/problem/288)
   * *Medium*
   * HashMap, LinkedList
-* [Maximum Values Of Size K Sliding Windows](MaxOfKSlidingWindows.java) - [LeetCode 239](https://leetcode.com/problems/sliding-window-maximum/)
-  * **Hard**
-  * Deque
 * [Valid Parentheses](ValidParentheses.java) - [LeetCode 20](https://leetcode.com/problems/valid-parentheses/)
   * Easy
   * Stack
