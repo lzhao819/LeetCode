@@ -17,7 +17,7 @@
 | [Median of Two Sorted Arrays](MedianofTwoSortedArrays.java) | [LeetCode4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | **Hard** |  |
 | [Search in Rotated Sorted Array](SearchinRotatedSortedArray.java) | [LeetCode33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | *Medium* |  |
 | [Time Based Key-Value Store](TimeBasedKey-ValueStore.java) | [LeetCode981](https://leetcode.com/problems/time-based-key-value-store/) | *Medium* |  |
-|  |  |  |  |
+| [Missing Number](src/MissingNumber.java) | [Leetcode 268](https://leetcode.com/problems/missing-number/) | Easy |  |
 |  |  |  |  |
 ## Recursion
 
@@ -87,7 +87,7 @@
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------- | :-------- |
 | [Invert Binary Tree](src/InvertBinaryTree.java)              | [LeetCode 226](https://leetcode.com/problems/invert-binary-tree/) | Easy         |           |
 | [Symmetric Tree](src/SymmetricTree.java)                     | [Leetcode 101](https://leetcode.com/problems/symmetric-tree/) | Easy         |           |
-| Binary Tree Inorder Traversal                                | [Leetcode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | *Medium*     |           |
+| [Binary Tree Inorder Traversal](src/InOrder.java)            | [Leetcode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | *Medium*     |           |
 | Validate Binary Search Tree                                  | [Leetcode 98](https://leetcode.com/problems/validate-binary-search-tree/) | *Medium*     |           |
 | Same Tree                                                    | [Leetcode 100](https://leetcode.com/problems/same-tree/)     | Easy         |           |
 | Maximum Depth of Binary Tree                                 | [LeetCode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy         |           |
@@ -141,7 +141,7 @@
 
 | Solution                                    | Question Number                                              | Diffculties | Note |
 | :------------------------------------------ | :----------------------------------------------------------- | :---------- | :--- |
-| Missing Number                              | [Leetcode 268](https://leetcode.com/problems/missing-number/) | Easy        |      |
+|                                             |                                                              |             |      |
 | Top K Frequent Words                        | [Leetcode 692](https://leetcode.com/problems/top-k-frequent-words/) [347](https://leetcode.com/problems/top-k-frequent-elements/) | *Medium*    |      |
 | Intersection of Two Arrays                  | [Leetcode 349](https://leetcode.com/problems/intersection-of-two-arrays/) [350](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Easy        |      |
 | [Most Common Word](src/MostCommonWord.java) | [LeetCode 819](https://leetcode.com/problems/most-common-word/) | Easy        |      |

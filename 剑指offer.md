@@ -54,7 +54,7 @@
 | [Reverse Pairs in Array](src/reversePairs.java) | [N/A]() | **Hard** | Sort | |
 | [Intersection of Two Linked Lists](src/GetIntersectionNode.java) | [LeetCode 160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy         | LinkedList | |
 | [Find First and Last Position of Element in Sorted Array](src/FirstandLast.java) | [Leetcode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | *Medium* | BinarySearch | 在排序数组中查找数字 |
-|  |  |  |  | |
-|  |  |  |  | |
+| [Missing NumberII](src/MissingNumberII.java) | [N/A](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) | Easy | BinarySearch | [Leetcode 268](https://leetcode.com/problems/missing-number/) |
+| [Kth Largest in BST](src/KthLargestBST.java) | [N/A](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | Easy |  | |
 |  |  |  |  | |
 
