@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+import java.util.List;
+
 //151 Reverse Words in a String
-class Solution {
+class ReverseWordsArr {
     public String reverseWords(String s) {
         if (s == null) return s;
         char[] string = s.toCharArray();
@@ -44,6 +47,18 @@ class Solution {
         l++;
         r--;
       }   
-    }//
+    }
         
+}
+//慢
+class ReverseWordsStr {
+    public String reverseWords(String s){
+         String[] arr = s.trim().split("\\s+");
+         List<String> list = new ArrayList<>();
+         for(int i=arr.length-1; i>=0; i--){
+             list.add(arr[i]);
+         }
+         return String.join(" ", list);
+    }
+
 }

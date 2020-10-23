@@ -90,8 +90,8 @@
 | [Binary Tree Inorder Traversal](src/InOrder.java)            | [Leetcode 94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | *Medium*     |           |
 | Validate Binary Search Tree                                  | [Leetcode 98](https://leetcode.com/problems/validate-binary-search-tree/) | *Medium*     |           |
 | Same Tree                                                    | [Leetcode 100](https://leetcode.com/problems/same-tree/)     | Easy         |           |
-| Maximum Depth of Binary Tree                                 | [LeetCode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy         |           |
-| [Balanced Binary Tree](BalancedTree.java)                    | [LeetCode110](https://leetcode.com/problems/balanced-binary-tree/) | Easy         |           |
+| [Maximum Depth of Binary Tree](src/Tree104.java)             | [LeetCode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy         |           |
+| [Balanced Binary Tree](src/BalancedTree.java)                | [LeetCode110](https://leetcode.com/problems/balanced-binary-tree/) | Easy         |           |
 | [Maximum Path Sum Binary Tree I](MaximumPathSumBinaryTreeI.java) | [Lai138](https://app.laicode.io/app/problem/138)             | *Medium*     |           |
 | [Maximum Path Sum Binary Tree II](MaximumPathSumBinaryTreeII.java) | [LeetCode124](https://leetcode.com/problems/binary-tree-maximum-path-sum) | **Hard**     |           |
 | [Maximum Path Sum Binary Tree III](MaximumPathSumBinaryTreeIII.java) | [Lai140](https://app.laicode.io/app/problem/140)             | *Medium*     |           |
@@ -153,7 +153,7 @@
 | [Reorder Data in Log Files](ReorderData.java)                | [LeetCode 937](https://leetcode.com/problems/reorder-data-in-log-files/) | Easy         |      |
 | [Verifying an Alien Dictionary](VerifyingAlienDictionary.java) | [LeetCode 953](https://leetcode.com/problems/verifying-an-alien-dictionary/) | Easy         |      |
 | Reverse String                                               | [Leetcode 344](https://leetcode.com/problems/reverse-string/) | Easy         |      |
-| Reverse Words in a String                                    | [Leetcode 151](https://leetcode.com/problems/reverse-words-in-a-string/) | *Medium*     |      |
+| [Reverse Words in a String](src/String151.java)              | [Leetcode 151](https://leetcode.com/problems/reverse-words-in-a-string/) | *Medium*     |      |
 | Right Shift By N Characters                                  | Lai 397                                                      | Easy         |      |
 | String Replace                                               | Lai 172                                                      | **Hard**     |      |
 | Permutations II                                              | [Leetcode 47](https://leetcode.com/problems/permutations-ii/): | *Medium*     | DFS  |
@@ -203,17 +203,17 @@
 
 ## Bit
 
-| Solution                        | Question Number                                              | Difficulties | Tags |
-| :------------------------------ | :----------------------------------------------------------- | :----------- | :--- |
-| Power of Two                    | [Leetcode 231](https://leetcode.com/problems/power-of-two/)  | Easy         |      |
-| Power of Four                   | [Leetcode 342](https://leetcode.com/problems/power-of-four/) | Easy         |      |
-| Number Of Different Bits        | Lai 75                                                       | Easy         |      |
-| Counting Bits                   | [Leetcode 338](https://leetcode.com/problems/counting-bits/) | *Medium*     |      |
-| All Unique Characters II        | Lai 77                                                       | *Medium*     |      |
-| Reverse Bits of 32-bit Integer  | Lai 626                                                      | Easy         |      |
-| Convert a Number to Hexadecimal | [Leetcode 405](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | Easy         |      |
-|                                 |                                                              |              |      |
-|                                 |                                                              |              |      |
+| Solution                                      | Question Number                                              | Difficulties | Tags          |
+| :-------------------------------------------- | :----------------------------------------------------------- | :----------- | :------------ |
+| Power of Two                                  | [Leetcode 231](https://leetcode.com/problems/power-of-two/)  | Easy         |               |
+| Power of Four                                 | [Leetcode 342](https://leetcode.com/problems/power-of-four/) | Easy         |               |
+| Number Of Different Bits                      | Lai 75                                                       | Easy         |               |
+| Counting Bits                                 | [Leetcode 338](https://leetcode.com/problems/counting-bits/) | *Medium*     |               |
+| All Unique Characters II                      | Lai 77                                                       | *Medium*     |               |
+| Reverse Bits of 32-bit Integer                | Lai 626                                                      | Easy         |               |
+| Convert a Number to Hexadecimal               | [Leetcode 405](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) | Easy         |               |
+| [Single Number III](src/SingleNumberIII.java) | [LeetCode 260](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/) | *Medium*     | Bit           |
+| [Single Number II](src/SingleNumberII.java)   | [LeetCode 137](https://leetcode.com/problems/single-number-ii/) | *Medium*     | 状态机， bits |
 
 ## Random
 
@@ -270,7 +270,7 @@
 * [Valid Parentheses](ValidParentheses.java) - [LeetCode 20](https://leetcode.com/problems/valid-parentheses/)
   * Easy
   * Stack
-* [Two Sum](TwoSum.java) - [LeetCode 1](https://leetcode.com/problems/two-sum/)
+* [Two Sum](src/TwoSum.java) - [LeetCode 1](https://leetcode.com/problems/two-sum/)
   * Easy
   * HashTable
 * [Subarray Sum Equals K](SubarraySumEqualsK.java) - [LeetCode 560](https://leetcode.com/problems/subarray-sum-equals-k/)

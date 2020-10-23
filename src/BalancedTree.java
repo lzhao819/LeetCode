@@ -14,10 +14,12 @@
  *     }
  * }
  */
-//In Time O(n)
-//Space O(height) 
-class Solution {
+//DFS
+//Time O(n)
+//Space O(height) -worse O(N)
+class BalancedTree {
     public boolean isBalanced(TreeNode root) {
+
         return getHeight(root)!=-1;
     }
     

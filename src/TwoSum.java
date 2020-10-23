@@ -5,7 +5,11 @@
 //time O(n)
 //Spcace O(n)
 
-class Solution {
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+class TwoSumMap {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         if(nums==null || nums.length<2) return result;
@@ -20,5 +24,22 @@ class Solution {
         }
         Arrays.sort(result);
         return result;
+    }
+}
+class TwoSumPointer{
+    public int[] twoSum(int[] nums, int target) {
+        Arrays.sort(nums);
+        int i=0, j=nums.length-1;
+        while(i<j){
+            int sum = nums[i]+nums[j];
+            if(sum==target){
+                return new int[]{nums[i], nums[j]};
+            }else if(sum>target){
+                j--;
+            }else{
+                i++;
+            }
+        }
+        return new int[]{-1, -1};
     }
 }

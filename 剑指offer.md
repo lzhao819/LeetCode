@@ -56,5 +56,14 @@
 | [Find First and Last Position of Element in Sorted Array](src/FirstandLast.java) | [Leetcode 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | *Medium* | BinarySearch | 在排序数组中查找数字 |
 | [Missing NumberII](src/MissingNumberII.java) | [N/A](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/) | Easy | BinarySearch | [Leetcode 268](https://leetcode.com/problems/missing-number/) |
 | [Kth Largest in BST](src/KthLargestBST.java) | [N/A](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | Easy |  | |
+| [Maximum Depth of Binary Tree](src/Tree104.java) | [LeetCode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy    | Tree | |
+| [Balanced Binary Tree](src/BalancedTree.java) | [LeetCode110](https://leetcode.com/problems/balanced-binary-tree/) | Easy |  | |
+| [Single Number III](src/SingleNumberIII.java) | [LeetCode 260](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/) | *Medium* | Bit | 260 136 137 645 |
+| [Single Number II](src/SingleNumberII.java) | [LeetCode 137](https://leetcode.com/problems/single-number-ii/) | *Medium* | 状态机， bit | |
+| [有序数组Two SumII](src/TwoSum.java) | [LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Easy | two pointer | [LeetCode 1](https://leetcode.com/problems/two-sum/)无序 |
+| [Find Continuous Sequence](src/FindContinuousSequence.java) | [N/A](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/) | Easy | two pointer | |
+| [Reverse Words in a String](src/String151.java) | [Leetcode 151](https://leetcode.com/problems/reverse-words-in-a-string/) | *Medium* |  | |
+| [左旋转字符串](src/ReverseLeftWords.java) | [N/A](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) | Easy |  | |
+| [Maximum Values Of Size K Sliding Windows](src/MaxOfKSlidingWindows.java) | [LeetCode 239](https://leetcode.com/problems/sliding-window-maximum/) | **Hard** | Deque | |
 |  |  |  |  | |
-
+|  |  |  |  | |
