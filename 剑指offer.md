@@ -65,5 +65,12 @@
 | [Reverse Words in a String](src/String151.java) | [Leetcode 151](https://leetcode.com/problems/reverse-words-in-a-string/) | *Medium* |  | |
 | [左旋转字符串](src/ReverseLeftWords.java) | [N/A](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/) | Easy |  | |
 | [Maximum Values Of Size K Sliding Windows](src/MaxOfKSlidingWindows.java) | [LeetCode 239](https://leetcode.com/problems/sliding-window-maximum/) | **Hard** | Deque | |
+| [Max Queue](src/MaxQueue.java) | [N/A](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/) | *Medium* | Deque | |
+| [n个骰子的点数](src/SumProbability.java) | [N/A]((https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/)) | Easy | DP | |
+| [扑克牌中的顺子](src/IsStraight.java) | [N/A](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | Easy |  | |
+| [圆圈中最后剩下的数字] | [N/A](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | Easy |  | |
+|  |  |  |  | |
+|  |  |  |  | |
+|  |  |  |  | |
 |  |  |  |  | |
 |  |  |  |  | |
