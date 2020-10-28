@@ -6,15 +6,13 @@
 //Note that you cannot sell a stock before you buy one.
 //time O(n)
 //Space O(1)
-class Solution {
+class BestTimetoBuyandSellStock {
     public int maxProfit(int[] prices) {
-        if(prices ==null) return 0;
-        int curMax = 0;
-        int globalMax = 0;
-        for(int i=1;i<prices.length;i++){
-            curMax = Math.max(0, curMax+prices[i]-prices[i-1]);
-            globalMax = Math.max(globalMax, curMax);
+        int minCost = Integer.MAX_VALUE, maxProfit = 0;
+        for(int price : prices) {
+            minCost = Math.min(minCost, price);
+            maxProfit = Math.max(maxProfit, price - minCost);
         }
-        return globalMax;
+        return maxProfit;
     }
 }

@@ -38,7 +38,7 @@
 | N - Queens                                                   | [Leetcode 51](https://leetcode.com/problems/n-queens/)       | **Hard**     | DFS                |
 | String Abbreviation Matching                                 | Lai292                                                       | *Medium*     |                    |
 | Store Number Of Nodes In Left Subtree                        | Lai 646                                                      | Medium*      |                    |
-| Lowest Common Ancestor of a Binary Tree                      | [Leetcode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | *Medium*     |                    |
+| [Lowest Common Ancestor of a Binary Tree](src/LowestCommonAncestorII.java) | [Leetcode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | *Medium*     |                    |
 | Binary Tree Upside Down                                      | [Leetcode 156](https://leetcode.com/problems/binary-tree-upside-down/) | *Medium*     |                    |
 | [Kth Largest Element in an Array](src/KthLargestElementinArray.java) | [Leetcode 215](https://leetcode.com/problems/kth-largest-element-in-an-array/) | **Hard**     | Heap, Quick Select |
 |                                                              |                                                              |              |                    |
@@ -184,7 +184,7 @@
 | Array Hopper I | Lai 88 | *Medium*     |  |
 | Array Hopper II | Lai 89                                                   | *Medium*     |  |
 | [Maximum Subarray](src/MaximumSubarray.java) | [LeetCode 53](https://leetcode.com/problems/maximum-subarray/) | Easy         |  |
-| [Best Time to Buy and Sell Stock](BestTimetoBuyandSellStock.java) | [LeetCode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy         |  |
+| [Best Time to Buy and Sell Stock](src/BestTimetoBuyandSellStock.java) | [LeetCode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy         |  |
 | Dictionary Word I | Lai 99 | *Medium*     |  |
 | Edit Distance | Lai 100 | *Medium*     |  |
 | Largest Square Of 1s | Lai 101 | **Hard**     |  |

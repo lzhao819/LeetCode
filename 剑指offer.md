@@ -68,9 +68,14 @@
 | [Max Queue](src/MaxQueue.java) | [N/A](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/) | *Medium* | Deque | |
 | [n个骰子的点数](src/SumProbability.java) | [N/A]((https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/)) | Easy | DP | |
 | [扑克牌中的顺子](src/IsStraight.java) | [N/A](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | Easy |  | |
-| [圆圈中最后剩下的数字] | [N/A](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | Easy |  | |
-|  |  |  |  | |
-|  |  |  |  | |
-|  |  |  |  | |
-|  |  |  |  | |
-|  |  |  |  | |
+| [圆圈中最后剩下的数字](src/LastRemaining.java) | [N/A](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | Easy |  | |
+| [Best Time to Buy and Sell Stock](src/BestTimetoBuyandSellStock.java) | [LeetCode 121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | DP | |
+| [ 求1+2+…+n](src/SumNums.jajva) | [N/A](https://leetcode-cn.com/problems/qiu-12n-lcof/) | *Medium* |  | |
+| [不用加减乘除做加法](src/BitAdd.java) | [N/A](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/) |  |  | |
+| [构建乘积数组](src/constructArr.java) | [N/A](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/) |  | DP | |
+| [String to Integer](StringtoInteger.java) | [LeetCode 8](https://leetcode.com/problems/string-to-integer-atoi/) |  |  | |
+| [Lowest Common Ancestor of a Binary Search Tree](src/LowestCommonAncestor.java) | [LeetCode 235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Easy | Tree | |
+| [Lowest Common Ancestor of a Binary Tree](src/LowestCommonAncestorII.java) | [LeetCode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Easy | Tree | |
+
+
+
