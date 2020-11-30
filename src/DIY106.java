@@ -1,5 +1,5 @@
 //Laicode106 Largest SubMatrix Sum
-// Given a matrix that contains integers, find the submatrix with the largest sum.
+/** Given a matrix that contains integers, find the submatrix with the largest sum.
 
 // Return the sum of the submatrix.
 
@@ -17,6 +17,7 @@
 //   {0,  0,  1, 1} }
 
 // the largest submatrix sum is (-1) + 4 + 1 + 1 + (-1) + 1 + 1 + 1 = 7.
+ **/
 public class Solution {
   public int largestI(int[][] matrix) {
     if(matrix==null||matrix.length==0||matrix[0].length==0) return 0;
