@@ -193,7 +193,7 @@
 | Largest X Of 1s | Lai 105 | **Hard**     |  |
 | Largest Square Surrounded By One | Lai 637 | *Medium*     |  |
 | Largest Square Of Matches | Lai 638 | *Medium*     |  |
-| Largest SubMatrix Sum | Lai 106 | **Hard**     |  |
+| [Largest SubMatrix Sum](src/DIY106.java) | DIY 106 | **Hard**     |  |
 | Minimum Cuts For Palindromes | Lai 143 | *Medium*     |  |
 | [Longest Palindromic Substring](LongestPalindromicSubstring.java) | [LeetCode 5](https://leetcode.com/problems/longest-palindromic-substring/) | *Medium*     |  |
 | [Palindrome Removal](PalindromeRemoval.java) | [LeetCode 1246](https://leetcode.com/problems/palindrome-removal/) | **Hard**     |  |
